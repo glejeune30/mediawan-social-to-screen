@@ -136,15 +136,20 @@ def esc(x) -> str:
 def style(fig: go.Figure, height: int = 380, title: str | None = None) -> go.Figure:
     fig.update_layout(
         height=height, paper_bgcolor="white", plot_bgcolor="white",
-        font=dict(family="Source Sans 3, Source Sans Pro, sans-serif", color=INK, size=13),
+        # a system font: plotly measures legend text before web fonts load, so a web font
+        # would make legend items overlap
+        font=dict(family="Arial, Helvetica, sans-serif", color=INK, size=13),
         margin=dict(l=10, r=10, t=50 if title else 20, b=10),
         title=dict(text=title, font=dict(size=15, color=INK), x=0, xanchor="left") if title else None,
         hoverlabel=dict(bgcolor="white", font_color=INK, bordercolor=GRID),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1,
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="left", x=0,
                     font=dict(color=MUTED)),
     )
-    fig.update_xaxes(showgrid=False, linecolor=GRID, tickfont=dict(color=MUTED), zeroline=False)
-    fig.update_yaxes(gridcolor=GRID, linecolor=GRID, tickfont=dict(color=MUTED), zeroline=False)
+    # automargin: plotly makes room for tick labels and axis titles (nothing gets cut)
+    fig.update_xaxes(showgrid=False, linecolor=GRID, tickfont=dict(color=MUTED), zeroline=False,
+                     automargin=True, title_font=dict(color=MUTED, size=13))
+    fig.update_yaxes(gridcolor=GRID, linecolor=GRID, tickfont=dict(color=MUTED), zeroline=False,
+                     automargin=True, title_font=dict(color=MUTED, size=13), title_standoff=12)
     return fig
 
 
@@ -241,18 +246,22 @@ with tab_radar:
                     'Left: the mainstream has not noticed it yet. The shaded corner is where the '
                     '<b>Act now</b> rule applies.</div>', unsafe_allow_html=True)
         m = d.copy()
-        m["aware"] = 100 * (1 - m["unaware"])
+        # x: stories without a Wikipedia page get their own wide band on the left (spread so the
+        # dots do not pile up); the others are placed on a log scale of monthly views.
         jitter = m["story_id"].map(lambda s: (zlib.crc32(s.encode()) % 1000) / 1000)
-        m["x"] = np.where(m["wiki_article"].isna(), 1 + 7 * jitter, m["aware"])
+        views = m["wiki_views_month"].clip(lower=1)
+        on_log = 32 + 68 * ((np.log10(views) - 2) / 4).clip(0, 1)
+        m["x"] = np.where(m["wiki_article"].isna(), 2 + 21 * jitter, on_log)
         m["y"] = 100 * m["accel"]
+        threshold_x = 32 + 68 * ((np.log10(6000) - 2) / 4)   # ~6,000 views: "still unaware"
         size_pct = m.groupby("format")["score"].rank(pct=True).fillna(0.5)
         fig = go.Figure()
-        fig.add_shape(type="rect", x0=-2, x1=50, y0=90, y1=101, fillcolor="rgba(255,90,78,.10)",
-                      line=dict(width=0), layer="below")
-        fig.add_annotation(x=1, y=100, text="ACT NOW ZONE", showarrow=False, xanchor="left",
-                           yanchor="top", font=dict(size=11, color=CORAL))
-        fig.add_vrect(x0=-2, x1=9.5, fillcolor="rgba(91,63,140,.05)", line_width=0, layer="below")
-        fig.add_annotation(x=4.5, y=-4, text="no Wikipedia page", showarrow=False,
+        fig.add_vrect(x0=-2, x1=26, fillcolor="rgba(91,63,140,.05)", line_width=0, layer="below")
+        fig.add_shape(type="rect", x0=-2, x1=threshold_x, y0=90, y1=101,
+                      fillcolor="rgba(255,90,78,.10)", line=dict(width=0), layer="below")
+        fig.add_annotation(x=threshold_x - 1, y=100.5, text="ACT NOW ZONE", showarrow=False,
+                           xanchor="right", yanchor="top", font=dict(size=11, color=CORAL))
+        fig.add_annotation(x=12, y=-5, text="no Wikipedia page", showarrow=False,
                            font=dict(size=11, color=MUTED))
         for s in STATUS_ORDER:
             g = m[m["status"] == s]
@@ -267,14 +276,13 @@ with tab_radar:
                 hovertemplate=("<b>%{customdata[0]}</b> · %{customdata[1]}<br>%{customdata[2]}"
                                "<br>Wikipedia: %{customdata[3]}<br>Score %{customdata[4]:.0f}/100"
                                f"<extra>{s}</extra>")))
-        fig.update_layout(margin=dict(l=75, r=20, t=40, b=75))
+        fig = style(fig, 500)
+        fig.update_layout(margin=dict(t=50))
         fig.update_xaxes(range=[-2, 102],
                          title="Mainstream awareness: Wikipedia views per month →",
-                         tickvals=[4.5, 32.5, 55, 77.5, 100],
-                         ticktext=["no page", "1k", "10k", "100k", "1M"])
-        fig.update_yaxes(range=[-8, 103], title="Acceleration in its community (percentile) →")
-        fig = style(fig, 480)
-        fig.update_layout(margin=dict(l=75, r=20, t=40, b=75))
+                         tickvals=[12, 32, 49, 66, 83, 100],
+                         ticktext=["no page", "100", "1k", "10k", "100k", "1M"])
+        fig.update_yaxes(range=[-9, 103], title="Acceleration in its community (percentile) →")
         st.plotly_chart(fig, width="stretch", theme=None, config={"displayModeBar": False})
 
         # ---- table
@@ -283,8 +291,8 @@ with tab_radar:
                     unsafe_allow_html=True)
         t = d.assign(Status=d["status"].map(lambda s: f'{STATUS[s]["dot"]} {s}'))
         st.dataframe(
-            t[["cover_url", "title", "author", "format", "Status", "score", "fan_signal",
-               "mainstream", "adaptation", "genres", "source_url"]],
+            t[["cover_url", "title", "Status", "score", "fan_signal", "mainstream", "adaptation",
+               "format", "author", "genres", "source_url"]],
             column_config={
                 "cover_url": st.column_config.ImageColumn("", width="small"),
                 "title": st.column_config.TextColumn("Story", width="medium"),
@@ -408,8 +416,10 @@ with tab_bt:
                              hovertemplate="Deal announced: %{x|%d %b %Y}<extra>%{y}</extra>"))
     fig.update_xaxes(range=[pd.Timestamp("2018-01-01"), pd.Timestamp("2025-06-01")],
                      showgrid=True, gridcolor=GRID, dtick="M12", tickformat="%Y")
+    fig = style(fig, 380)
     fig.update_yaxes(showgrid=False)
-    st.plotly_chart(style(fig, 360), width="stretch", theme=None, config={"displayModeBar": False})
+    fig.update_layout(margin=dict(l=230, t=50))   # room for the longest title
+    st.plotly_chart(fig, width="stretch", theme=None, config={"displayModeBar": False})
 
     with st.expander("See the search and Wikipedia curves for each title"):
         title = st.selectbox("Title", bt["title"].tolist(), key="bt_title")

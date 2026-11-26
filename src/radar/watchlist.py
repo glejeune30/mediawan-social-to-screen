@@ -256,7 +256,7 @@ def score(df: pd.DataFrame) -> pd.DataFrame:
             trend = (f", up {r.wiki_momentum - 1:.0%} versus the 6 months before"
                      if np.isfinite(r.wiki_momentum) and r.wiki_momentum >= 1.25 else "")
             second = f"Wikipedia: {_k(r.wiki_views_month)} views last month{trend}"
-        if r.adaptation:
+        if isinstance(r.adaptation, str) and r.adaptation:
             third = f"Already adapted: {r.adaptation}"
         elif r.format == "Webtoon":
             third = "No anime adaptation listed on AniList (check live-action rights)"
