@@ -183,7 +183,8 @@ text(s, MARGIN, Inches(3.75), Inches(6.6), Inches(1.2),
      "An early-warning radar that spots the next adaptable story while its rights are still affordable",
      size=22, color=SOFT)
 text(s, MARGIN, Inches(5.6), Inches(7.2), Inches(0.9),
-     ["On the Grill 1  ·  27 November 2026", "Team: [team name]  ·  [first names]"],
+     ["On the Grill 1  ·  27 November 2026  ·  Team 21",
+      "Christine Durand, Fiona Loison, Gabin Dupre Duval, Gabriel Lejeune"],
      size=14, color=SOFT, space_after=4)
 notes(s, "Hello, we are [team]. In the next five minutes: the problem we chose, the decision our "
          "radar helps Mediawan make, and a first test on real adaptations.")

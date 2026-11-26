@@ -3,7 +3,7 @@
 Deck: `presentation/OTG1_deck.pptx` (7 slides). The same text is in each slide's speaker notes.
 About 650 words: at a calm pace that is 5 minutes. Rehearse with a timer twice.
 
-Before presenting: replace `[team name]` and `[first names]` on slide 1.
+Team 21: Christine Durand, Fiona Loison, Gabin Dupre Duval, Gabriel Lejeune.
 
 | Slide | Time | Cumulative |
 |---|---|---|
@@ -19,7 +19,7 @@ Before presenting: replace `[team name]` and `[first names]` on slide 1.
 
 ## 1. From Social to Screen (0:20)
 
-Good afternoon. We are [team name]. In the next five minutes: the problem we chose, the
+Good afternoon. We are Team 21: Christine, Fiona, Gabin and Gabriel. In the next five minutes: the problem we chose, the
 decision our radar helps Mediawan make, and a first test on real adaptations.
 
 ## 2. By the time a story is mainstream, its rights are gone (0:45)
@@ -102,7 +102,7 @@ Thank you.
 
 ## Version française (pour comprendre et répéter, ne pas lire à l'oral)
 
-1. **Titre.** Bonjour, nous sommes [équipe]. En cinq minutes : le problème choisi, la décision
+1. **Titre.** Bonjour, nous sommes la Team 21 : Christine, Fiona, Gabin et Gabriel. En cinq minutes : le problème choisi, la décision
    que notre radar aide Mediawan à prendre, et un premier test sur de vraies adaptations.
 2. **Problème.** Les histoires naissent en ligne avant d'arriver dans les classements.
    Fourth Wing : 5 mois entre la sortie du roman et le développement de la série par Amazon.

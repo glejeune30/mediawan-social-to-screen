@@ -1,6 +1,7 @@
 # From Social to Screen: an early-warning radar for adaptable stories
 
 Business Deep Dive **Mediawan × Albert School** (23 November - 11 December 2026).
+**Team 21:** Christine Durand, Fiona Loison, Gabin Dupre Duval, Gabriel Lejeune.
 
 > **The decision we inform:** which book or webtoon should Mediawan's development teams look at,
 > and option, this quarter, before its rights become expensive?
@@ -93,8 +94,7 @@ repository; any public post about the case needs Mediawan's approval first.
 
 - **Pour vendredi** : le diapo `presentation/OTG1_deck.pptx` (notes de l'orateur incluses), le texte
   à dire `presentation/OTG1_speaker_script.md` (anglais + traduction française), et la préparation
-  des questions du jury `presentation/OTG1_jury_QA.md`. Remplacer `[team name]` et
-  `[first names]` sur la slide 1.
+  des questions du jury `presentation/OTG1_jury_QA.md`.
 - **Pour la suite** : le plan est dans `docs/05_roadmap.md`, la note de cadrage commencée dans
   `docs/scoping_note_draft.md`.
 - **Partie technique** : `src/`, `scripts/`, `app/`, à ne pas montrer dans la présentation.
