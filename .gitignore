@@ -1,6 +1,9 @@
 # secrets
 .env
 
+# local tool settings (machine-specific paths)
+.claude/
+
 # original case brief from Mediawan (shared for the Business Deep Dive only, stays off the repo)
 BDD Mediawan - Brief*.docx
 *.docx#

@@ -67,7 +67,13 @@ st.dataframe(
               "radar_alert": "Radar alert", "first_wikipedia_page": "First Wikipedia page",
               "announcement_date": "Deal announced", "lead_months": "Warning (months)",
               "announcement_event": "Deal"}),
-    hide_index=True, width="stretch")
+    hide_index=True, width="stretch",
+    column_config={
+        "Radar alert": st.column_config.DateColumn(format="MMM YYYY"),
+        "First Wikipedia page": st.column_config.DateColumn(format="D MMM YYYY"),
+        "Deal announced": st.column_config.DateColumn(format="D MMM YYYY"),
+        "Warning (months)": st.column_config.NumberColumn(format="%.1f"),
+    })
 
 st.subheader("Signals over time")
 title = st.selectbox("Title", view["title"].tolist())
