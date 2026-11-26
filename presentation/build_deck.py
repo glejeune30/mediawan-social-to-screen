@@ -350,7 +350,9 @@ text(s, MARGIN + Inches(0.4), y1 + Inches(0.25), Inches(6), Inches(0.4),
      "EARLY SIGNALS  (where stories are born)", size=12, bold=True, color=PLUM)
 text(s, MARGIN + Inches(0.4), y1 + Inches(0.7), Inches(6.2), Inches(1.0),
      ["YouTube: BookTube and webtoon reviewers", "Reddit: fan communities",
-      "Webtoon and Wattpad charts: new entries, fast climbers"], size=15, color=INK, space_after=2)
+      [("AniList and Open Library: fans and readers ", {}),
+       ("(live in our prototype)", {"bold": True, "color": CORAL})]],
+     size=15, color=INK, space_after=2)
 text(s, MARGIN + Inches(7.0), y1 + Inches(0.25), Inches(5), Inches(0.4),
      "MAINSTREAM GAUGE  (who already knows)", size=12, bold=True, color=PLUM)
 text(s, MARGIN + Inches(7.0), y1 + Inches(0.7), Inches(4.9), Inches(1.0),
@@ -462,7 +464,7 @@ text(s, MARGIN, Inches(1.6), colw, Inches(0.4), "BEFORE ON THE GRILL 2  ·  4 DE
      bold=True, color=CORAL)
 steps = ["Add the early signals: YouTube and Reddit",
          "Test on titles that were never adapted, to count false alarms",
-         "Prototype: a weekly watchlist, filterable by keyword and genre"]
+         "Tune our prototype, already live on public data, with your feedback"]
 for i, st in enumerate(steps):
     y = Inches(2.2) + i * Inches(1.0)
     numbered(s, MARGIN + Inches(0.3), y + Inches(0.3), i + 1)
@@ -483,6 +485,50 @@ notes(s, "Before On the Grill 2 we will add YouTube and Reddit, test on titles t
          "adapted, and turn this into a weekly watchlist you can filter. To make it useful for "
          "you, we need three answers: which genres matter most, how much warning your teams need, "
          "and a past deal we could test against. Thank you.")
+
+# =====================================================================
+# 8. Backup (light): the prototype, shown only if the jury asks
+# =====================================================================
+SHOT = ROOT / "presentation" / "assets" / "prototype.png"
+if SHOT.exists():
+    import json as _json
+    from PIL import Image
+
+    s = prs.slides.add_slide(BLANK)
+    bg(s, WHITE)
+    text(s, MARGIN, Inches(0.25), Inches(6), Inches(0.35), "BACKUP  ·  ONLY IF ASKED", size=12,
+         bold=True, color=CORAL)
+    title(s, "What the user sees: our prototype, live on public data")
+    meta_path = ROOT / "data" / "processed" / "watchlist_meta.json"
+    meta = _json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
+    # screenshot, scaled to fit the area under the title
+    area_x, area_y, area_w, area_h = MARGIN, Inches(1.45), Inches(8.3), Inches(5.2)
+    with Image.open(SHOT) as im:
+        ratio = im.width / im.height
+    w = min(area_w, int(area_h * ratio))
+    h = int(w / ratio)
+    frame = box(s, area_x - Inches(0.06), area_y - Inches(0.06), w + Inches(0.12),
+                h + Inches(0.12), LILAC, name="Screenshot frame", radius=0.03)
+    pic = s.shapes.add_picture(str(SHOT), area_x, area_y, width=w, height=h)
+    pic.name = "Prototype screenshot"
+    cx = area_x + w + Inches(0.5)
+    cw2 = W - MARGIN - cx
+    counts = meta.get("status_counts", {})
+    facts = [
+        (str(meta.get("stories", "—")), "stories tracked this week"),
+        (str(counts.get("Act now", "—")), "to act on now"),
+        (str(counts.get("Prepare", "—")), "to prepare"),
+    ]
+    for i, (big, small) in enumerate(facts):
+        y = area_y + i * Inches(1.25)
+        text(s, cx, y, cw2, Inches(0.7), big, size=36, font=HEAD, bold=True,
+             color=CORAL if i == 1 else INK)
+        text(s, cx, y + Inches(0.68), cw2, Inches(0.4), small, size=14, color=MUTED)
+    text(s, cx, area_y + Inches(3.85), cw2, Inches(1.4),
+         ["Each story: a status, a score and the reasons.",
+          "Sources: AniList, Open Library, Wikipedia."],
+         size=14, color=INK, space_after=6)
+    footer(s, 8)
 
 # Speaker notes: taken from the script so the deck and the script never disagree.
 SCRIPT = ROOT / "presentation" / "OTG1_speaker_script.md"

@@ -23,7 +23,26 @@ each one a weekly emergence score and a status: **Watch**, **Prepare** or **Act 
 | Heartstopper | not flagged (slow, steady growth) | Jan 2021 (Netflix) | missed |
 
 - On the Grill 1 deck, speaker script and Q&A prep (`presentation/`).
-- Prototype v0 (Streamlit) on the backtest snapshot (`app/`).
+- **Story Radar prototype** (`app/`), running on live public data without API keys.
+
+## The prototype: Story Radar
+
+![Story Radar prototype](presentation/assets/prototype.png)
+
+| Radar map | Story page | Backtest |
+|---|---|---|
+| ![Radar map](presentation/assets/radar_map.png) | ![Story page](presentation/assets/story.png) | ![Backtest](presentation/assets/backtest.png) |
+
+- **This week's radar**: the top signals with their reasons, a radar map (acceleration in the
+  community × mainstream awareness) and the full watchlist with covers, filterable by keyword,
+  format, status and genre.
+- **Story page**: status, score, why, links, the community curve and the Wikipedia curve.
+- **Backtest**: the four past adaptations, alert versus deal.
+- **How it works**: the three questions, the status rules, the sources and their status, and a
+  button to refresh the live data.
+
+Live sources: **AniList** (webtoon fans), **Open Library** (book readers), **Wikipedia**
+(mainstream gauge). Scoring rules: `docs/04_method.md`, section 4b.
 
 ## Repository map
 
@@ -38,20 +57,25 @@ docs/
   scoping_note_draft.md    draft of the 2-4 page deliverable
   feedback_log.md          jury feedback, round by round
 presentation/
-  OTG1_deck.pptx           On the Grill 1 deck (7 slides, speaker notes included)
+  OTG1_deck.pptx           On the Grill 1 deck (7 slides + 1 backup, speaker notes included)
+  assets/prototype.png     screenshot of the prototype (used in the backup slide)
   OTG1_deck.pdf            same, as PDF
   OTG1_speaker_script.md   5-minute script with timings (+ French version)
   OTG1_jury_QA.md          expected questions, answers, questions for the jury
   build_deck.py            regenerates the deck from the data
 src/radar/
-  sources/                 wikipedia, google_trends, youtube, reddit, nyt_bestsellers
-  indicators.py            momentum, alerts, emergence score, status
+  sources/                 anilist, openlibrary, wikipedia, google_trends, youtube, reddit, nyt_bestsellers
+  watchlist.py             live watchlist: Wikipedia matching, score, status, reasons
+  indicators.py            momentum, alerts (backtest)
   config.py                paths and API keys (read from .env)
+scripts/run_watchlist.py   builds this week's watchlist from live public data
 scripts/run_poc.py         collects data and runs the backtest
-app/streamlit_app.py       prototype (filters, backtest table, curves, refresh button)
+app/streamlit_app.py       Story Radar prototype (radar, story pages, backtest, method)
+.streamlit/config.toml     prototype theme (same colours as the deck)
 data/
   seeds/backtest_titles.csv   adapted titles, deal dates and source links
-  raw/, processed/            data snapshot used by the deck and the app
+  raw/                        collected data (backtest series, watchlist signals and history)
+  processed/                  watchlist, backtest results and series used by the app and the deck
 tests/test_smoke.py        indicator tests + headless run of the app
 ```
 
@@ -61,9 +85,10 @@ tests/test_smoke.py        indicator tests + headless run of the app
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-python scripts/run_poc.py --offline     # recompute from the saved snapshot (no internet needed)
-python scripts/run_poc.py               # refetch Google Trends + Wikipedia (about 3 minutes)
-streamlit run app/streamlit_app.py      # open the prototype
+streamlit run app/streamlit_app.py      # open the prototype (uses the saved data snapshot)
+python scripts/run_watchlist.py         # refresh the live watchlist (about 5 minutes)
+python scripts/run_poc.py --offline     # recompute the backtest from the saved snapshot
+python scripts/run_poc.py               # refetch Google Trends + Wikipedia for the backtest
 python presentation/build_deck.py       # rebuild the deck with the latest numbers
 python tests/test_smoke.py              # checks
 ```
@@ -95,6 +120,9 @@ repository; any public post about the case needs Mediawan's approval first.
 - **Pour vendredi** : le diapo `presentation/OTG1_deck.pptx` (notes de l'orateur incluses), le texte
   à dire `presentation/OTG1_speaker_script.md` (anglais + traduction française), et la préparation
   des questions du jury `presentation/OTG1_jury_QA.md`.
+- **Le prototype** (Story Radar) : `streamlit run app/streamlit_app.py`. Il tourne sur de vraies
+  données publiques de cette semaine (AniList, Open Library, Wikipedia). Une slide de secours
+  (n° 8) le montre si le jury demande ce que voit l'utilisateur.
 - **Pour la suite** : le plan est dans `docs/05_roadmap.md`, la note de cadrage commencée dans
   `docs/scoping_note_draft.md`.
 - **Partie technique** : `src/`, `scripts/`, `app/`, à ne pas montrer dans la présentation.

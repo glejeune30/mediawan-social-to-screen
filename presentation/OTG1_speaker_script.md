@@ -1,6 +1,7 @@
 # On the Grill 1: speaker script (5 minutes)
 
-Deck: `presentation/OTG1_deck.pptx` (7 slides). The same text is in each slide's speaker notes.
+Deck: `presentation/OTG1_deck.pptx` (7 slides + 1 backup slide). The same text is in each
+slide's speaker notes.
 About 650 words: at a calm pace that is 5 minutes. Rehearse with a timer twice.
 
 Team 21: Christine Durand, Fiona Loison, Gabin Dupre Duval, Gabriel Lejeune.
@@ -14,6 +15,7 @@ Team 21: Christine Durand, Fiona Loison, Gabin Dupre Duval, Gabriel Lejeune.
 | 5. How it works | 0:50 | 3:20 |
 | 6. First test | 1:00 | 4:20 |
 | 7. Next steps and questions | 0:40 | 5:00 |
+| 8. Backup: prototype | only if asked | |
 
 ---
 
@@ -66,9 +68,10 @@ Three: is the mainstream still unaware? We compare the niche buzz with Google se
 
 The answers become a score from 0 to 100 and a status.
 
-We listen where stories are born: YouTube reviewers, Reddit fan communities, and the Webtoon and
-Wattpad charts. And we compare with a mainstream gauge: Google Trends and Wikipedia. Public data
-only, official APIs, no personal data.
+We listen where stories are born: YouTube reviewers, Reddit fan communities, and AniList and
+Open Library, where fans and readers log what they read. Those two are already live in our
+prototype. And we compare with a mainstream gauge: Google Trends and Wikipedia. Public data only,
+official APIs, no personal data.
 
 ## 6. First test: 3 of 4 stories flagged before the deal (1:00)
 
@@ -90,13 +93,19 @@ but were never adapted, to count false alarms.
 ## 7. Next: from a test to a weekly watchlist (0:40)
 
 Before On the Grill 2, we will add YouTube and Reddit, test on titles that were never adapted,
-and turn this into a weekly watchlist you can filter by keyword and genre.
+and tune our prototype, which already builds a weekly watchlist from live public data.
 
 To make it useful for you, we have three questions: which genres matter most to your labels
 right now, how many months of warning your teams need to option a story, and whether you could
 share one or two past deals we could test against.
 
 Thank you.
+
+## 8. Backup: the prototype (only if the jury asks what the user sees)
+
+This is our prototype, running on live public data. Every week it tracks the books and webtoons
+that are gaining readers and fans, gives each one a status and a score, and explains why. You
+can filter by format, genre or status, and open a page for each story with its curves.
 
 ---
 
@@ -120,8 +129,9 @@ Thank you.
    multi-communautés, calé sur la fenêtre des droits.
 5. **Fonctionnement.** Trois questions par histoire et par semaine : le buzz accélère-t-il ?
    se propage-t-il à plusieurs communautés ? le grand public l'ignore-t-il encore ? Résultat :
-   un score de 0 à 100 et un statut. Sources : YouTube, Reddit, classements Webtoon et Wattpad,
-   comparés à Google Trends et Wikipedia. Données publiques uniquement.
+   un score de 0 à 100 et un statut. Sources : YouTube, Reddit, et AniList et Open Library (fans
+   et lecteurs, déjà branchés dans notre prototype), comparés à Google Trends et Wikipedia.
+   Données publiques uniquement.
 6. **Premier test.** Règle fixée à l'avance : les recherches Google des 3 derniers mois font au
    moins le double des 6 mois précédents, deux mois de suite. Solo Leveling repéré 42 mois avant
    le contrat, A Good Girl's Guide to Murder 28 mois, Fourth Wing 3,5 mois. Heartstopper raté :
@@ -129,5 +139,9 @@ Thank you.
    sont des succès connus ; prochaine étape, tester des titres jamais adaptés pour compter les
    fausses alertes.
 7. **Suite.** Avant On the Grill 2 : ajouter YouTube et Reddit, tester les faux positifs,
-   construire la liste hebdomadaire filtrable. Trois questions au jury : genres prioritaires,
-   combien de mois d'avance il leur faut, et un ou deux contrats passés pour tester.
+   améliorer le prototype qui tourne déjà sur des données publiques en direct. Trois questions au
+   jury : genres prioritaires, combien de mois d'avance il leur faut, et un ou deux contrats
+   passés pour tester.
+8. **Slide de secours (seulement si on demande ce que voit l'utilisateur).** Le prototype : chaque
+   semaine, les livres et webtoons qui gagnent des lecteurs et des fans, avec un statut, un score
+   et les raisons ; filtres par format, genre, statut ; une page par histoire avec ses courbes.

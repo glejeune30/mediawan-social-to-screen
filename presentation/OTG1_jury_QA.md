@@ -28,9 +28,22 @@ That is one of our questions for you. Our first test gives the number of months 
 radar's alert and the public deal; we would like to know how much time your teams need to read,
 assess and option a title.
 
-**"What does the user actually see?"**
-A weekly watchlist: each story with a score, a status (Watch, Prepare, Act now), the communities
-where it is growing, and its curve. Filters by keyword and category.
+**"What does the user actually see?"** → show the backup slide 8 (prototype screenshot).
+A weekly watchlist, already running on live public data (AniList for webtoon fans, Open Library
+for book readers, Wikipedia for the mainstream): each story with a status (Act now, Prepare,
+Watch), a score from 0 to 100 and the reasons, a radar map, and a page per story with its curves.
+Filters by keyword, format, genre and status.
+
+**"Why AniList and Open Library?"**
+They are the two big public communities where fans and readers log what they follow, with free
+APIs and no key. AniList shows how fast a webtoon's fan base grows and whether an anime is already
+announced; Open Library shows which recent books readers are suddenly adding. Both are biased
+samples (AniList skews towards action and fantasy, Open Library is small), which is why YouTube
+and Reddit come next.
+
+**"Is the prototype using real data?"**
+Yes: a snapshot of public data collected this week, with a refresh button. YouTube and Reddit are
+coded and will be plugged in once we have the free API keys.
 
 **"Is this legal and ethical?"**
 Official APIs and public rankings only, respecting their terms. We store counts per title, never

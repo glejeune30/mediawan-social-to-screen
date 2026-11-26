@@ -1,0 +1,740 @@
+story_id,kind,x,value
+al-106929,fans,2026-10-27,47426.0
+al-106929,fans,2026-09-27,46551.0
+al-106929,fans,2026-08-28,45723.0
+al-106929,fans,2026-05-30,43155.0
+al-114605,fans,2026-10-27,36850.0
+al-114605,fans,2026-09-27,36193.0
+al-114605,fans,2026-08-28,35602.0
+al-114605,fans,2026-05-30,33771.0
+al-117460,fans,2026-10-27,40068.0
+al-117460,fans,2026-09-27,38388.0
+al-117460,fans,2026-08-28,37820.0
+al-117460,fans,2026-05-30,36142.0
+al-119257,fans,2026-10-27,134259.0
+al-119257,fans,2026-09-27,132296.0
+al-119257,fans,2026-08-28,130600.0
+al-119257,fans,2026-05-30,124951.0
+al-120385,fans,2026-10-27,24670.0
+al-120385,fans,2026-09-27,24197.0
+al-120385,fans,2026-08-28,23690.0
+al-120385,fans,2026-05-30,22255.0
+al-120980,fans,2026-10-27,49162.0
+al-120980,fans,2026-09-27,48252.0
+al-120980,fans,2026-08-28,47363.0
+al-120980,fans,2026-05-30,44586.0
+al-128067,fans,2026-10-27,70045.0
+al-128067,fans,2026-09-27,67973.0
+al-128067,fans,2026-08-28,66227.0
+al-128067,fans,2026-05-30,62900.0
+al-129956,fans,2026-10-27,6363.0
+al-129956,fans,2026-09-27,6150.0
+al-129956,fans,2026-08-28,5939.0
+al-129956,fans,2026-05-30,5354.0
+al-130149,fans,2026-10-27,22775.0
+al-130149,fans,2026-09-27,22391.0
+al-130149,fans,2026-08-28,22036.0
+al-130149,fans,2026-05-30,20981.0
+al-132144,fans,2026-10-27,46027.0
+al-132144,fans,2026-09-27,44908.0
+al-132144,fans,2026-08-28,43817.0
+al-132144,fans,2026-05-30,40386.0
+al-136204,fans,2026-10-27,20947.0
+al-136204,fans,2026-09-27,20501.0
+al-136204,fans,2026-08-28,20097.0
+al-136204,fans,2026-05-30,18819.0
+al-137280,fans,2026-10-27,51743.0
+al-137280,fans,2026-09-27,50815.0
+al-137280,fans,2026-08-28,49905.0
+al-137280,fans,2026-05-30,47119.0
+al-137969,fans,2026-10-27,15572.0
+al-137969,fans,2026-09-27,15246.0
+al-137969,fans,2026-08-28,14973.0
+al-137969,fans,2026-05-30,14109.0
+al-140407,fans,2026-10-27,71212.0
+al-140407,fans,2026-09-27,69033.0
+al-140407,fans,2026-08-28,66965.0
+al-140407,fans,2026-05-30,60651.0
+al-141705,fans,2026-10-27,18735.0
+al-141705,fans,2026-09-27,18225.0
+al-141705,fans,2026-08-28,17787.0
+al-141705,fans,2026-05-30,16224.0
+al-141958,fans,2026-10-27,22166.0
+al-141958,fans,2026-09-27,21563.0
+al-141958,fans,2026-08-28,21065.0
+al-141958,fans,2026-05-30,19496.0
+al-143056,fans,2026-10-27,39373.0
+al-143056,fans,2026-09-27,38699.0
+al-143056,fans,2026-08-28,38026.0
+al-143056,fans,2026-05-30,36019.0
+al-144957,fans,2026-10-27,45543.0
+al-144957,fans,2026-09-27,44634.0
+al-144957,fans,2026-08-28,43836.0
+al-144957,fans,2026-05-30,41487.0
+al-151460,fans,2026-10-27,17627.0
+al-151460,fans,2026-09-27,16955.0
+al-151460,fans,2026-08-28,16268.0
+al-151460,fans,2026-05-30,14589.0
+al-151512,fans,2026-10-27,36015.0
+al-151512,fans,2026-09-27,35407.0
+al-151512,fans,2026-08-28,34790.0
+al-151512,fans,2026-05-30,33103.0
+al-158766,fans,2026-10-27,6360.0
+al-158766,fans,2026-09-27,6119.0
+al-158766,fans,2026-08-28,5858.0
+al-158766,fans,2026-05-30,5223.0
+al-159441,fans,2026-10-27,46334.0
+al-159441,fans,2026-09-27,44959.0
+al-159441,fans,2026-08-28,43699.0
+al-159441,fans,2026-05-30,39677.0
+al-159445,fans,2026-10-27,6713.0
+al-159445,fans,2026-09-27,6533.0
+al-159445,fans,2026-08-28,6362.0
+al-159445,fans,2026-05-30,5948.0
+al-159930,fans,2026-10-27,42148.0
+al-159930,fans,2026-09-27,40876.0
+al-159930,fans,2026-08-28,39724.0
+al-159930,fans,2026-05-30,36386.0
+al-163824,fans,2026-10-27,46503.0
+al-163824,fans,2026-09-27,45247.0
+al-163824,fans,2026-08-28,44208.0
+al-163824,fans,2026-05-30,40735.0
+al-164857,fans,2026-10-27,22052.0
+al-164857,fans,2026-09-27,20935.0
+al-164857,fans,2026-08-28,19881.0
+al-164857,fans,2026-05-30,17985.0
+al-167834,fans,2026-10-27,20507.0
+al-167834,fans,2026-09-27,19967.0
+al-167834,fans,2026-08-28,19645.0
+al-167834,fans,2026-05-30,18439.0
+al-170400,fans,2026-10-27,33793.0
+al-170400,fans,2026-09-27,32221.0
+al-170400,fans,2026-08-28,30843.0
+al-170400,fans,2026-05-30,26744.0
+al-170838,fans,2026-10-27,2739.0
+al-170838,fans,2026-09-26,2583.0
+al-170838,fans,2026-08-28,2517.0
+al-170838,fans,2026-05-30,2273.0
+al-170956,fans,2026-10-27,6759.0
+al-170956,fans,2026-09-27,6539.0
+al-170956,fans,2026-08-28,6314.0
+al-170956,fans,2026-05-30,5677.0
+al-172166,fans,2026-10-27,9327.0
+al-172166,fans,2026-09-27,8924.0
+al-172166,fans,2026-08-28,8613.0
+al-172166,fans,2026-05-30,7760.0
+al-179445,fans,2026-10-27,33809.0
+al-179445,fans,2026-09-27,33158.0
+al-179445,fans,2026-08-28,32555.0
+al-179445,fans,2026-05-30,30484.0
+al-180891,fans,2026-10-27,19834.0
+al-180891,fans,2026-09-27,18587.0
+al-180891,fans,2026-08-28,17378.0
+al-180891,fans,2026-05-30,14610.0
+al-181296,fans,2026-10-27,5232.0
+al-181296,fans,2026-09-27,4938.0
+al-181296,fans,2026-08-28,4660.0
+al-181296,fans,2026-05-30,3875.0
+al-182139,fans,2026-10-27,6322.0
+al-182139,fans,2026-09-27,5855.0
+al-182139,fans,2026-08-28,5445.0
+al-182139,fans,2026-05-30,4377.0
+al-182511,fans,2026-10-27,3452.0
+al-182511,fans,2026-09-27,3212.0
+al-182511,fans,2026-08-28,2984.0
+al-182511,fans,2026-05-30,2391.0
+al-183285,fans,2026-10-27,9153.0
+al-183285,fans,2026-09-27,8628.0
+al-183285,fans,2026-08-28,8222.0
+al-183285,fans,2026-05-30,6909.0
+al-186490,fans,2026-10-27,4384.0
+al-186490,fans,2026-09-27,4043.0
+al-186490,fans,2026-08-28,3744.0
+al-186490,fans,2026-05-30,3124.0
+al-195914,fans,2026-10-27,7007.0
+al-195914,fans,2026-09-27,6446.0
+al-195914,fans,2026-08-28,5883.0
+al-195914,fans,2026-05-30,4323.0
+al-201009,fans,2026-10-27,16195.0
+al-201009,fans,2026-09-27,14638.0
+al-201009,fans,2026-08-28,13309.0
+al-201009,fans,2026-05-30,9293.0
+al-202345,fans,2026-10-27,1392.0
+al-202345,fans,2026-09-27,1315.0
+al-202345,fans,2026-08-28,1236.0
+al-202345,fans,2026-05-30,830.0
+al-203800,fans,2026-10-27,5036.0
+al-203800,fans,2026-09-27,4535.0
+al-203800,fans,2026-08-28,4088.0
+al-203800,fans,2026-05-30,2906.0
+al-208091,fans,2026-10-27,2362.0
+al-208091,fans,2026-09-27,2008.0
+al-208091,fans,2026-08-28,1706.0
+al-208091,fans,2026-05-30,630.0
+al-208323,fans,2026-10-27,920.0
+al-208323,fans,2026-09-27,762.0
+al-208323,fans,2026-08-28,626.0
+al-208323,fans,2026-05-30,262.0
+al-214541,fans,2026-10-27,1225.0
+al-214541,fans,2026-09-27,973.0
+al-214541,fans,2026-08-28,703.0
+al-216758,fans,2026-10-27,965.0
+al-216758,fans,2026-09-27,267.0
+al-216894,fans,2026-10-27,1213.0
+al-216894,fans,2026-09-27,419.0
+al-216933,fans,2026-10-27,1391.0
+al-216933,fans,2026-09-27,387.0
+al-217943,fans,2026-10-27,667.0
+al-120980,fans,2026-11-26,50095.0
+al-119257,fans,2026-11-26,135921.0
+al-159441,fans,2026-11-26,47496.0
+al-164857,fans,2026-11-26,22830.0
+al-179445,fans,2026-11-26,34807.0
+al-143056,fans,2026-11-26,39960.0
+al-117460,fans,2026-11-26,41575.0
+al-170400,fans,2026-11-26,34890.0
+al-132144,fans,2026-11-26,47100.0
+al-151512,fans,2026-11-26,37505.0
+al-158766,fans,2026-11-26,6579.0
+al-159930,fans,2026-11-26,43211.0
+al-180891,fans,2026-11-26,20896.0
+al-182139,fans,2026-11-26,6696.0
+al-106929,fans,2026-11-26,48145.0
+al-216758,fans,2026-11-26,1415.0
+al-183285,fans,2026-11-26,9603.0
+al-203800,fans,2026-11-26,5378.0
+al-216894,fans,2026-11-26,1631.0
+al-120385,fans,2026-11-26,25590.0
+al-128067,fans,2026-11-26,71339.0
+al-141958,fans,2026-11-26,22668.0
+al-181296,fans,2026-11-26,5505.0
+al-202345,fans,2026-11-26,1632.0
+al-217943,fans,2026-11-26,1441.0
+al-136204,fans,2026-11-26,21547.0
+al-144957,fans,2026-11-26,46230.0
+al-216933,fans,2026-11-26,1789.0
+al-140407,fans,2026-11-26,73104.0
+al-151460,fans,2026-11-26,18194.0
+al-163824,fans,2026-11-26,47443.0
+al-182511,fans,2026-11-26,3729.0
+al-208091,fans,2026-11-26,2649.0
+al-114605,fans,2026-11-26,37396.0
+al-186490,fans,2026-11-26,4735.0
+al-141705,fans,2026-11-26,19204.0
+al-208323,fans,2026-11-26,1035.0
+al-214541,fans,2026-11-26,1454.0
+al-129956,fans,2026-11-26,6514.0
+al-130149,fans,2026-11-26,23090.0
+al-137280,fans,2026-11-26,52528.0
+al-159445,fans,2026-11-26,6931.0
+al-195914,fans,2026-11-26,7539.0
+al-201009,fans,2026-11-26,17410.0
+al-220112,fans,2026-11-26,1441.0
+al-137969,fans,2026-11-26,15873.0
+al-167834,fans,2026-11-26,20940.0
+al-170838,fans,2026-11-26,2865.0
+al-170956,fans,2026-11-26,6959.0
+al-172166,fans,2026-11-26,9576.0
+ol-OL42543873W,wikipedia_views,2025-10-01,27414.0
+ol-OL42543873W,wikipedia_views,2025-11-01,41830.0
+ol-OL42543873W,wikipedia_views,2025-12-01,41832.0
+ol-OL42543873W,wikipedia_views,2026-01-01,41637.0
+ol-OL42543873W,wikipedia_views,2026-02-01,27156.0
+ol-OL42543873W,wikipedia_views,2026-03-01,33738.0
+ol-OL42543873W,wikipedia_views,2026-04-01,26856.0
+ol-OL42543873W,wikipedia_views,2026-05-01,24152.0
+ol-OL42543873W,wikipedia_views,2026-06-01,24071.0
+ol-OL42543873W,wikipedia_views,2026-07-01,21816.0
+ol-OL42543873W,wikipedia_views,2026-08-01,21758.0
+ol-OL42543873W,wikipedia_views,2026-09-01,19952.0
+ol-OL42543873W,wikipedia_views,2026-10-01,22850.0
+ol-OL24576090W,wikipedia_views,2024-11-01,1160.0
+ol-OL24576090W,wikipedia_views,2024-12-01,1173.0
+ol-OL24576090W,wikipedia_views,2025-01-01,1288.0
+ol-OL24576090W,wikipedia_views,2025-02-01,1087.0
+ol-OL24576090W,wikipedia_views,2025-03-01,1183.0
+ol-OL24576090W,wikipedia_views,2025-04-01,1081.0
+ol-OL24576090W,wikipedia_views,2025-05-01,984.0
+ol-OL24576090W,wikipedia_views,2025-06-01,1007.0
+ol-OL24576090W,wikipedia_views,2025-07-01,943.0
+ol-OL24576090W,wikipedia_views,2025-08-01,970.0
+ol-OL24576090W,wikipedia_views,2025-09-01,996.0
+ol-OL24576090W,wikipedia_views,2025-10-01,1213.0
+ol-OL24576090W,wikipedia_views,2025-11-01,983.0
+ol-OL24576090W,wikipedia_views,2025-12-01,821.0
+ol-OL24576090W,wikipedia_views,2026-01-01,871.0
+ol-OL24576090W,wikipedia_views,2026-02-01,763.0
+ol-OL24576090W,wikipedia_views,2026-03-01,890.0
+ol-OL24576090W,wikipedia_views,2026-04-01,841.0
+ol-OL24576090W,wikipedia_views,2026-05-01,765.0
+ol-OL24576090W,wikipedia_views,2026-06-01,667.0
+ol-OL24576090W,wikipedia_views,2026-07-01,739.0
+ol-OL24576090W,wikipedia_views,2026-08-01,800.0
+ol-OL24576090W,wikipedia_views,2026-09-01,838.0
+ol-OL24576090W,wikipedia_views,2026-10-01,779.0
+ol-OL21101115W,wikipedia_views,2025-06-01,14945.0
+ol-OL21101115W,wikipedia_views,2025-07-01,29424.0
+ol-OL21101115W,wikipedia_views,2025-08-01,24173.0
+ol-OL21101115W,wikipedia_views,2025-09-01,19614.0
+ol-OL21101115W,wikipedia_views,2025-10-01,18096.0
+ol-OL21101115W,wikipedia_views,2025-11-01,17357.0
+ol-OL21101115W,wikipedia_views,2025-12-01,17475.0
+ol-OL21101115W,wikipedia_views,2026-01-01,19494.0
+ol-OL21101115W,wikipedia_views,2026-02-01,15233.0
+ol-OL21101115W,wikipedia_views,2026-03-01,28740.0
+ol-OL21101115W,wikipedia_views,2026-04-01,18744.0
+ol-OL21101115W,wikipedia_views,2026-05-01,18853.0
+ol-OL21101115W,wikipedia_views,2026-06-01,17067.0
+ol-OL21101115W,wikipedia_views,2026-07-01,20063.0
+ol-OL21101115W,wikipedia_views,2026-08-01,28799.0
+ol-OL21101115W,wikipedia_views,2026-09-01,26194.0
+ol-OL21101115W,wikipedia_views,2026-10-01,38874.0
+al-106929,wikipedia_views,2025-06-01,39.0
+al-106929,wikipedia_views,2025-07-01,4512.0
+al-106929,wikipedia_views,2025-08-01,2909.0
+al-106929,wikipedia_views,2025-09-01,2724.0
+al-106929,wikipedia_views,2025-10-01,2608.0
+al-106929,wikipedia_views,2025-11-01,2738.0
+al-106929,wikipedia_views,2025-12-01,2631.0
+al-106929,wikipedia_views,2026-01-01,3540.0
+al-106929,wikipedia_views,2026-02-01,3230.0
+al-106929,wikipedia_views,2026-03-01,2570.0
+al-106929,wikipedia_views,2026-04-01,2144.0
+al-106929,wikipedia_views,2026-05-01,2367.0
+al-106929,wikipedia_views,2026-06-01,2795.0
+al-106929,wikipedia_views,2026-07-01,3585.0
+al-106929,wikipedia_views,2026-08-01,3061.0
+al-106929,wikipedia_views,2026-09-01,2211.0
+al-106929,wikipedia_views,2026-10-01,2599.0
+ol-OL28020413W,wikipedia_views,2024-11-01,161.0
+ol-OL28020413W,wikipedia_views,2024-12-01,1790.0
+ol-OL28020413W,wikipedia_views,2025-01-01,2371.0
+ol-OL28020413W,wikipedia_views,2025-02-01,2009.0
+ol-OL28020413W,wikipedia_views,2025-03-01,2202.0
+ol-OL28020413W,wikipedia_views,2025-04-01,2500.0
+ol-OL28020413W,wikipedia_views,2025-05-01,2863.0
+ol-OL28020413W,wikipedia_views,2025-06-01,3906.0
+ol-OL28020413W,wikipedia_views,2025-07-01,3001.0
+ol-OL28020413W,wikipedia_views,2025-08-01,3005.0
+ol-OL28020413W,wikipedia_views,2025-09-01,2723.0
+ol-OL28020413W,wikipedia_views,2025-10-01,2928.0
+ol-OL28020413W,wikipedia_views,2025-11-01,3254.0
+ol-OL28020413W,wikipedia_views,2025-12-01,2804.0
+ol-OL28020413W,wikipedia_views,2026-01-01,3387.0
+ol-OL28020413W,wikipedia_views,2026-02-01,2595.0
+ol-OL28020413W,wikipedia_views,2026-03-01,3005.0
+ol-OL28020413W,wikipedia_views,2026-04-01,2925.0
+ol-OL28020413W,wikipedia_views,2026-05-01,3284.0
+ol-OL28020413W,wikipedia_views,2026-06-01,3451.0
+ol-OL28020413W,wikipedia_views,2026-07-01,2759.0
+ol-OL28020413W,wikipedia_views,2026-08-01,2738.0
+ol-OL28020413W,wikipedia_views,2026-09-01,2316.0
+ol-OL28020413W,wikipedia_views,2026-10-01,2369.0
+ol-OL29226517W,wikipedia_views,2024-11-01,78842.0
+ol-OL29226517W,wikipedia_views,2024-12-01,107020.0
+ol-OL29226517W,wikipedia_views,2025-01-01,427830.0
+ol-OL29226517W,wikipedia_views,2025-02-01,281143.0
+ol-OL29226517W,wikipedia_views,2025-03-01,165945.0
+ol-OL29226517W,wikipedia_views,2025-04-01,151867.0
+ol-OL29226517W,wikipedia_views,2025-05-01,161553.0
+ol-OL29226517W,wikipedia_views,2025-06-01,135902.0
+ol-OL29226517W,wikipedia_views,2025-07-01,136245.0
+ol-OL29226517W,wikipedia_views,2025-08-01,108738.0
+ol-OL29226517W,wikipedia_views,2025-09-01,85367.0
+ol-OL29226517W,wikipedia_views,2025-10-01,89055.0
+ol-OL29226517W,wikipedia_views,2025-11-01,93605.0
+ol-OL29226517W,wikipedia_views,2025-12-01,82122.0
+ol-OL29226517W,wikipedia_views,2026-01-01,93707.0
+ol-OL29226517W,wikipedia_views,2026-02-01,81702.0
+ol-OL29226517W,wikipedia_views,2026-03-01,75233.0
+ol-OL29226517W,wikipedia_views,2026-04-01,68282.0
+ol-OL29226517W,wikipedia_views,2026-05-01,99784.0
+ol-OL29226517W,wikipedia_views,2026-06-01,79286.0
+ol-OL29226517W,wikipedia_views,2026-07-01,90570.0
+ol-OL29226517W,wikipedia_views,2026-08-01,90128.0
+ol-OL29226517W,wikipedia_views,2026-09-01,85487.0
+ol-OL29226517W,wikipedia_views,2026-10-01,154740.0
+ol-OL37575890W,wikipedia_views,2024-11-01,6851.0
+ol-OL37575890W,wikipedia_views,2024-12-01,12883.0
+ol-OL37575890W,wikipedia_views,2025-01-01,17896.0
+ol-OL37575890W,wikipedia_views,2025-02-01,12545.0
+ol-OL37575890W,wikipedia_views,2025-03-01,13452.0
+ol-OL37575890W,wikipedia_views,2025-04-01,15286.0
+ol-OL37575890W,wikipedia_views,2025-05-01,15382.0
+ol-OL37575890W,wikipedia_views,2025-06-01,14507.0
+ol-OL37575890W,wikipedia_views,2025-07-01,14711.0
+ol-OL37575890W,wikipedia_views,2025-08-01,9315.0
+ol-OL37575890W,wikipedia_views,2025-09-01,7051.0
+ol-OL37575890W,wikipedia_views,2025-10-01,6016.0
+ol-OL37575890W,wikipedia_views,2025-11-01,5021.0
+ol-OL37575890W,wikipedia_views,2025-12-01,6037.0
+ol-OL37575890W,wikipedia_views,2026-01-01,26752.0
+ol-OL37575890W,wikipedia_views,2026-02-01,7315.0
+ol-OL37575890W,wikipedia_views,2026-03-01,5771.0
+ol-OL37575890W,wikipedia_views,2026-04-01,5717.0
+ol-OL37575890W,wikipedia_views,2026-05-01,5087.0
+ol-OL37575890W,wikipedia_views,2026-06-01,5033.0
+ol-OL37575890W,wikipedia_views,2026-07-01,5597.0
+ol-OL37575890W,wikipedia_views,2026-08-01,6651.0
+ol-OL37575890W,wikipedia_views,2026-09-01,5667.0
+ol-OL37575890W,wikipedia_views,2026-10-01,5093.0
+ol-OL26085843W,wikipedia_views,2025-12-01,1268.0
+ol-OL26085843W,wikipedia_views,2026-01-01,266000.0
+ol-OL26085843W,wikipedia_views,2026-02-01,156457.0
+ol-OL26085843W,wikipedia_views,2026-03-01,95415.0
+ol-OL26085843W,wikipedia_views,2026-04-01,51913.0
+ol-OL26085843W,wikipedia_views,2026-05-01,40896.0
+ol-OL26085843W,wikipedia_views,2026-06-01,30051.0
+ol-OL26085843W,wikipedia_views,2026-07-01,23549.0
+ol-OL26085843W,wikipedia_views,2026-08-01,26057.0
+ol-OL26085843W,wikipedia_views,2026-09-01,18814.0
+ol-OL26085843W,wikipedia_views,2026-10-01,16469.0
+al-114605,wikipedia_views,2024-11-01,2290.0
+al-114605,wikipedia_views,2024-12-01,3775.0
+al-114605,wikipedia_views,2025-01-01,3370.0
+al-114605,wikipedia_views,2025-02-01,3511.0
+al-114605,wikipedia_views,2025-03-01,4799.0
+al-114605,wikipedia_views,2025-04-01,3926.0
+al-114605,wikipedia_views,2025-05-01,3522.0
+al-114605,wikipedia_views,2025-06-01,2635.0
+al-114605,wikipedia_views,2025-07-01,2842.0
+al-114605,wikipedia_views,2025-08-01,2865.0
+al-114605,wikipedia_views,2025-09-01,2374.0
+al-114605,wikipedia_views,2025-10-01,2243.0
+al-114605,wikipedia_views,2025-11-01,2142.0
+al-114605,wikipedia_views,2025-12-01,1830.0
+al-114605,wikipedia_views,2026-01-01,1745.0
+al-114605,wikipedia_views,2026-02-01,2249.0
+al-114605,wikipedia_views,2026-03-01,1536.0
+al-114605,wikipedia_views,2026-04-01,1216.0
+al-114605,wikipedia_views,2026-05-01,1616.0
+al-114605,wikipedia_views,2026-06-01,1421.0
+al-114605,wikipedia_views,2026-07-01,1415.0
+al-114605,wikipedia_views,2026-08-01,1133.0
+al-114605,wikipedia_views,2026-09-01,1130.0
+al-114605,wikipedia_views,2026-10-01,943.0
+al-119257,wikipedia_views,2024-11-01,27666.0
+al-119257,wikipedia_views,2024-12-01,34436.0
+al-119257,wikipedia_views,2025-01-01,40876.0
+al-119257,wikipedia_views,2025-02-01,55339.0
+al-119257,wikipedia_views,2025-03-01,42804.0
+al-119257,wikipedia_views,2025-04-01,32774.0
+al-119257,wikipedia_views,2025-05-01,33828.0
+al-119257,wikipedia_views,2025-06-01,33375.0
+al-119257,wikipedia_views,2025-07-01,42077.0
+al-119257,wikipedia_views,2025-08-01,34101.0
+al-119257,wikipedia_views,2025-09-01,18453.0
+al-119257,wikipedia_views,2025-10-01,25740.0
+al-119257,wikipedia_views,2025-11-01,20403.0
+al-119257,wikipedia_views,2025-12-01,18717.0
+al-119257,wikipedia_views,2026-01-01,21096.0
+al-119257,wikipedia_views,2026-02-01,18168.0
+al-119257,wikipedia_views,2026-03-01,16726.0
+al-119257,wikipedia_views,2026-04-01,14436.0
+al-119257,wikipedia_views,2026-05-01,15724.0
+al-119257,wikipedia_views,2026-06-01,12543.0
+al-119257,wikipedia_views,2026-07-01,11368.0
+al-119257,wikipedia_views,2026-08-01,11015.0
+al-119257,wikipedia_views,2026-09-01,12447.0
+al-119257,wikipedia_views,2026-10-01,10475.0
+al-117460,wikipedia_views,2026-05-01,57.0
+al-117460,wikipedia_views,2026-06-01,3567.0
+al-117460,wikipedia_views,2026-07-01,4790.0
+al-117460,wikipedia_views,2026-08-01,4428.0
+al-117460,wikipedia_views,2026-09-01,16243.0
+al-117460,wikipedia_views,2026-10-01,42946.0
+al-158766,wikipedia_views,2024-11-01,19713.0
+al-158766,wikipedia_views,2024-12-01,19476.0
+al-158766,wikipedia_views,2025-01-01,24608.0
+al-158766,wikipedia_views,2025-02-01,17485.0
+al-158766,wikipedia_views,2025-03-01,16286.0
+al-158766,wikipedia_views,2025-04-01,13848.0
+al-158766,wikipedia_views,2025-05-01,17438.0
+al-158766,wikipedia_views,2025-06-01,14651.0
+al-158766,wikipedia_views,2025-07-01,13772.0
+al-158766,wikipedia_views,2025-08-01,14498.0
+al-158766,wikipedia_views,2025-09-01,17094.0
+al-158766,wikipedia_views,2025-10-01,14075.0
+al-158766,wikipedia_views,2025-11-01,12633.0
+al-158766,wikipedia_views,2025-12-01,13349.0
+al-158766,wikipedia_views,2026-01-01,13090.0
+al-158766,wikipedia_views,2026-02-01,11156.0
+al-158766,wikipedia_views,2026-03-01,12504.0
+al-158766,wikipedia_views,2026-04-01,11416.0
+al-158766,wikipedia_views,2026-05-01,12923.0
+al-158766,wikipedia_views,2026-06-01,19829.0
+al-158766,wikipedia_views,2026-07-01,16809.0
+al-158766,wikipedia_views,2026-08-01,14128.0
+al-158766,wikipedia_views,2026-09-01,12836.0
+al-158766,wikipedia_views,2026-10-01,11644.0
+al-132144,wikipedia_views,2024-11-01,2046.0
+al-132144,wikipedia_views,2024-12-01,2356.0
+al-132144,wikipedia_views,2025-01-01,2125.0
+al-132144,wikipedia_views,2025-02-01,1900.0
+al-132144,wikipedia_views,2025-03-01,2345.0
+al-132144,wikipedia_views,2025-04-01,1825.0
+al-132144,wikipedia_views,2025-05-01,1659.0
+al-132144,wikipedia_views,2025-06-01,1572.0
+al-132144,wikipedia_views,2025-07-01,1618.0
+al-132144,wikipedia_views,2025-08-01,1726.0
+al-132144,wikipedia_views,2025-09-01,1432.0
+al-132144,wikipedia_views,2025-10-01,1458.0
+al-132144,wikipedia_views,2025-11-01,1801.0
+al-132144,wikipedia_views,2025-12-01,2006.0
+al-132144,wikipedia_views,2026-01-01,2144.0
+al-132144,wikipedia_views,2026-02-01,2273.0
+al-132144,wikipedia_views,2026-03-01,2047.0
+al-132144,wikipedia_views,2026-04-01,3336.0
+al-132144,wikipedia_views,2026-05-01,2613.0
+al-132144,wikipedia_views,2026-06-01,1999.0
+al-132144,wikipedia_views,2026-07-01,1790.0
+al-132144,wikipedia_views,2026-08-01,1804.0
+al-132144,wikipedia_views,2026-09-01,1585.0
+al-132144,wikipedia_views,2026-10-01,1749.0
+al-128067,wikipedia_views,2026-09-01,5743.0
+al-128067,wikipedia_views,2026-10-01,5349.0
+ol-OL44071772W,wikipedia_views,2025-07-01,1840.0
+ol-OL44071772W,wikipedia_views,2025-08-01,3645.0
+ol-OL44071772W,wikipedia_views,2025-09-01,5232.0
+ol-OL44071772W,wikipedia_views,2025-10-01,7039.0
+ol-OL44071772W,wikipedia_views,2025-11-01,7379.0
+ol-OL44071772W,wikipedia_views,2025-12-01,14462.0
+ol-OL44071772W,wikipedia_views,2026-01-01,13295.0
+ol-OL44071772W,wikipedia_views,2026-02-01,6333.0
+ol-OL44071772W,wikipedia_views,2026-03-01,4789.0
+ol-OL44071772W,wikipedia_views,2026-04-01,4239.0
+ol-OL44071772W,wikipedia_views,2026-05-01,4749.0
+ol-OL44071772W,wikipedia_views,2026-06-01,4264.0
+ol-OL44071772W,wikipedia_views,2026-07-01,5550.0
+ol-OL44071772W,wikipedia_views,2026-08-01,5332.0
+ol-OL44071772W,wikipedia_views,2026-09-01,4061.0
+ol-OL44071772W,wikipedia_views,2026-10-01,4142.0
+ol-OL35781509W,wikipedia_views,2026-05-01,420.0
+ol-OL35781509W,wikipedia_views,2026-06-01,1509.0
+ol-OL35781509W,wikipedia_views,2026-07-01,2380.0
+ol-OL35781509W,wikipedia_views,2026-08-01,3386.0
+ol-OL35781509W,wikipedia_views,2026-09-01,2895.0
+ol-OL35781509W,wikipedia_views,2026-10-01,2980.0
+ol-OL26431106W,wikipedia_views,2024-11-01,1625.0
+ol-OL26431106W,wikipedia_views,2024-12-01,1976.0
+ol-OL26431106W,wikipedia_views,2025-01-01,2139.0
+ol-OL26431106W,wikipedia_views,2025-02-01,1852.0
+ol-OL26431106W,wikipedia_views,2025-03-01,1842.0
+ol-OL26431106W,wikipedia_views,2025-04-01,1785.0
+ol-OL26431106W,wikipedia_views,2025-05-01,1976.0
+ol-OL26431106W,wikipedia_views,2025-06-01,1809.0
+ol-OL26431106W,wikipedia_views,2025-07-01,1877.0
+ol-OL26431106W,wikipedia_views,2025-08-01,1849.0
+ol-OL26431106W,wikipedia_views,2025-09-01,1642.0
+ol-OL26431106W,wikipedia_views,2025-10-01,1721.0
+ol-OL26431106W,wikipedia_views,2025-11-01,1598.0
+ol-OL26431106W,wikipedia_views,2025-12-01,1416.0
+ol-OL26431106W,wikipedia_views,2026-01-01,1684.0
+ol-OL26431106W,wikipedia_views,2026-02-01,1305.0
+ol-OL26431106W,wikipedia_views,2026-03-01,1434.0
+ol-OL26431106W,wikipedia_views,2026-04-01,1180.0
+ol-OL26431106W,wikipedia_views,2026-05-01,1390.0
+ol-OL26431106W,wikipedia_views,2026-06-01,1101.0
+ol-OL26431106W,wikipedia_views,2026-07-01,1266.0
+ol-OL26431106W,wikipedia_views,2026-08-01,1194.0
+ol-OL26431106W,wikipedia_views,2026-09-01,1195.0
+ol-OL26431106W,wikipedia_views,2026-10-01,1171.0
+al-140407,wikipedia_views,2025-04-01,0.0
+al-140407,wikipedia_views,2025-07-01,0.0
+al-140407,wikipedia_views,2025-11-01,1041.0
+al-140407,wikipedia_views,2025-12-01,5902.0
+al-140407,wikipedia_views,2026-01-01,7691.0
+al-140407,wikipedia_views,2026-02-01,5262.0
+al-140407,wikipedia_views,2026-03-01,6349.0
+al-140407,wikipedia_views,2026-04-01,6193.0
+al-140407,wikipedia_views,2026-05-01,6334.0
+al-140407,wikipedia_views,2026-06-01,5929.0
+al-140407,wikipedia_views,2026-07-01,6162.0
+al-140407,wikipedia_views,2026-08-01,6300.0
+al-140407,wikipedia_views,2026-09-01,5861.0
+al-140407,wikipedia_views,2026-10-01,5989.0
+ol-OL27729743W,wikipedia_views,2025-07-01,26092.0
+ol-OL27729743W,wikipedia_views,2025-08-01,50964.0
+ol-OL27729743W,wikipedia_views,2025-09-01,352764.0
+ol-OL27729743W,wikipedia_views,2025-10-01,105387.0
+ol-OL27729743W,wikipedia_views,2025-11-01,169362.0
+ol-OL27729743W,wikipedia_views,2025-12-01,556919.0
+ol-OL27729743W,wikipedia_views,2026-01-01,341570.0
+ol-OL27729743W,wikipedia_views,2026-02-01,241656.0
+ol-OL27729743W,wikipedia_views,2026-03-01,104258.0
+ol-OL27729743W,wikipedia_views,2026-04-01,129454.0
+ol-OL27729743W,wikipedia_views,2026-05-01,62970.0
+ol-OL27729743W,wikipedia_views,2026-06-01,47811.0
+ol-OL27729743W,wikipedia_views,2026-07-01,50847.0
+ol-OL27729743W,wikipedia_views,2026-08-01,52738.0
+ol-OL27729743W,wikipedia_views,2026-09-01,46350.0
+ol-OL27729743W,wikipedia_views,2026-10-01,56598.0
+ol-OL42542598W,wikipedia_views,2025-09-01,22989.0
+ol-OL42542598W,wikipedia_views,2025-10-01,82526.0
+ol-OL42542598W,wikipedia_views,2025-11-01,54381.0
+ol-OL42542598W,wikipedia_views,2025-12-01,49979.0
+ol-OL42542598W,wikipedia_views,2026-01-01,43557.0
+ol-OL42542598W,wikipedia_views,2026-02-01,29263.0
+ol-OL42542598W,wikipedia_views,2026-03-01,26577.0
+ol-OL42542598W,wikipedia_views,2026-04-01,22048.0
+ol-OL42542598W,wikipedia_views,2026-05-01,19288.0
+ol-OL42542598W,wikipedia_views,2026-06-01,17436.0
+ol-OL42542598W,wikipedia_views,2026-07-01,25992.0
+ol-OL42542598W,wikipedia_views,2026-08-01,23458.0
+ol-OL42542598W,wikipedia_views,2026-09-01,28124.0
+ol-OL42542598W,wikipedia_views,2026-10-01,26874.0
+ol-OL45607440W,wikipedia_views,2026-05-01,137.0
+ol-OL45607440W,wikipedia_views,2026-06-01,617.0
+ol-OL45607440W,wikipedia_views,2026-07-01,812.0
+ol-OL45607440W,wikipedia_views,2026-08-01,952.0
+ol-OL45607440W,wikipedia_views,2026-09-01,1681.0
+ol-OL45607440W,wikipedia_views,2026-10-01,2863.0
+al-144957,wikipedia_views,2024-11-01,1726.0
+al-144957,wikipedia_views,2024-12-01,2210.0
+al-144957,wikipedia_views,2025-01-01,2871.0
+al-144957,wikipedia_views,2025-02-01,2803.0
+al-144957,wikipedia_views,2025-03-01,2903.0
+al-144957,wikipedia_views,2025-04-01,4462.0
+al-144957,wikipedia_views,2025-05-01,2926.0
+al-144957,wikipedia_views,2025-06-01,2554.0
+al-144957,wikipedia_views,2025-07-01,2525.0
+al-144957,wikipedia_views,2025-08-01,2178.0
+al-144957,wikipedia_views,2025-09-01,1864.0
+al-144957,wikipedia_views,2025-10-01,1877.0
+al-144957,wikipedia_views,2025-11-01,2272.0
+al-144957,wikipedia_views,2025-12-01,1944.0
+al-144957,wikipedia_views,2026-01-01,1819.0
+al-144957,wikipedia_views,2026-02-01,1750.0
+al-144957,wikipedia_views,2026-03-01,1563.0
+al-144957,wikipedia_views,2026-04-01,1431.0
+al-144957,wikipedia_views,2026-05-01,1926.0
+al-144957,wikipedia_views,2026-06-01,1925.0
+al-144957,wikipedia_views,2026-07-01,1661.0
+al-144957,wikipedia_views,2026-08-01,1575.0
+al-144957,wikipedia_views,2026-09-01,1632.0
+al-144957,wikipedia_views,2026-10-01,1603.0
+ol-OL26955716W,wikipedia_views,2026-10-01,1087.0
+ol-OL28420475W,wikipedia_views,2026-03-01,1.0
+ol-OL28420475W,wikipedia_views,2026-04-01,276.0
+ol-OL28420475W,wikipedia_views,2026-05-01,900.0
+ol-OL28420475W,wikipedia_views,2026-06-01,1242.0
+ol-OL28420475W,wikipedia_views,2026-07-01,1297.0
+ol-OL28420475W,wikipedia_views,2026-08-01,1301.0
+ol-OL28420475W,wikipedia_views,2026-09-01,1316.0
+ol-OL28420475W,wikipedia_views,2026-10-01,1252.0
+ol-OL45177696W,wikipedia_views,2026-05-01,39455.0
+ol-OL45177696W,wikipedia_views,2026-06-01,122311.0
+ol-OL45177696W,wikipedia_views,2026-07-01,157886.0
+ol-OL45177696W,wikipedia_views,2026-08-01,212374.0
+ol-OL45177696W,wikipedia_views,2026-09-01,116907.0
+ol-OL45177696W,wikipedia_views,2026-10-01,99623.0
+ol-OL42543873W,reader_activity,"Average day, previous week",18.86
+ol-OL42543873W,reader_activity,Last 24 hours,60.0
+ol-OL45084051W,reader_activity,"Average day, previous week",14.14
+ol-OL45084051W,reader_activity,Last 24 hours,35.0
+ol-OL45607440W,reader_activity,"Average day, previous week",4.29
+ol-OL45607440W,reader_activity,Last 24 hours,12.0
+ol-OL42457696W,reader_activity,"Average day, previous week",5.43
+ol-OL42457696W,reader_activity,Last 24 hours,12.0
+ol-OL41914127W,reader_activity,"Average day, previous week",9.29
+ol-OL41914127W,reader_activity,Last 24 hours,16.0
+ol-OL37927709W,reader_activity,"Average day, previous week",4.29
+ol-OL37927709W,reader_activity,Last 24 hours,7.0
+ol-OL21101115W,reader_activity,"Average day, previous week",11.43
+ol-OL21101115W,reader_activity,Last 24 hours,15.0
+ol-OL44344307W,reader_activity,"Average day, previous week",8.86
+ol-OL44344307W,reader_activity,Last 24 hours,10.0
+ol-OL44071772W,reader_activity,"Average day, previous week",4.57
+ol-OL44071772W,reader_activity,Last 24 hours,5.0
+ol-OL29226517W,reader_activity,"Average day, previous week",102.71
+ol-OL29226517W,reader_activity,Last 24 hours,106.0
+ol-OL26431106W,reader_activity,"Average day, previous week",0.14
+ol-OL26431106W,reader_activity,Last 24 hours,0.0
+ol-OL28347043W,reader_activity,"Average day, previous week",0.14
+ol-OL28347043W,reader_activity,Last 24 hours,0.0
+ol-OL35718442W,reader_activity,"Average day, previous week",13.29
+ol-OL35718442W,reader_activity,Last 24 hours,53.0
+ol-OL37588709W,reader_activity,"Average day, previous week",3.14
+ol-OL37588709W,reader_activity,Last 24 hours,13.0
+ol-OL29330646W,reader_activity,"Average day, previous week",9.43
+ol-OL29330646W,reader_activity,Last 24 hours,28.0
+ol-OL34265902W,reader_activity,"Average day, previous week",17.29
+ol-OL34265902W,reader_activity,Last 24 hours,36.0
+ol-OL29215706W,reader_activity,"Average day, previous week",19.43
+ol-OL29215706W,reader_activity,Last 24 hours,43.0
+ol-OL36100169W,reader_activity,"Average day, previous week",4.29
+ol-OL36100169W,reader_activity,Last 24 hours,14.0
+ol-OL36730809W,reader_activity,"Average day, previous week",5.14
+ol-OL36730809W,reader_activity,Last 24 hours,15.0
+ol-OL34058365W,reader_activity,"Average day, previous week",7.57
+ol-OL34058365W,reader_activity,Last 24 hours,17.0
+ol-OL38077501W,reader_activity,"Average day, previous week",13.0
+ol-OL38077501W,reader_activity,Last 24 hours,26.0
+ol-OL35764182W,reader_activity,"Average day, previous week",32.57
+ol-OL35764182W,reader_activity,Last 24 hours,60.0
+ol-OL42776199W,reader_activity,"Average day, previous week",15.57
+ol-OL42776199W,reader_activity,Last 24 hours,27.0
+ol-OL37568839W,reader_activity,"Average day, previous week",4.86
+ol-OL37568839W,reader_activity,Last 24 hours,16.0
+ol-OL37759680W,reader_activity,"Average day, previous week",9.43
+ol-OL37759680W,reader_activity,Last 24 hours,17.0
+ol-OL26955716W,reader_activity,"Average day, previous week",7.14
+ol-OL26955716W,reader_activity,Last 24 hours,12.0
+ol-OL37575890W,reader_activity,"Average day, previous week",6.71
+ol-OL37575890W,reader_activity,Last 24 hours,12.0
+ol-OL36043513W,reader_activity,"Average day, previous week",26.43
+ol-OL36043513W,reader_activity,Last 24 hours,40.0
+ol-OL26085843W,reader_activity,"Average day, previous week",8.71
+ol-OL26085843W,reader_activity,Last 24 hours,15.0
+ol-OL37572814W,reader_activity,"Average day, previous week",7.57
+ol-OL37572814W,reader_activity,Last 24 hours,14.0
+ol-OL36807745W,reader_activity,"Average day, previous week",5.29
+ol-OL36807745W,reader_activity,Last 24 hours,7.0
+ol-OL27729743W,reader_activity,"Average day, previous week",102.29
+ol-OL27729743W,reader_activity,Last 24 hours,114.0
+ol-OL34516284W,reader_activity,"Average day, previous week",14.14
+ol-OL34516284W,reader_activity,Last 24 hours,17.0
+ol-OL38725124W,reader_activity,"Average day, previous week",16.86
+ol-OL38725124W,reader_activity,Last 24 hours,19.0
+ol-OL42544936W,reader_activity,"Average day, previous week",19.29
+ol-OL42544936W,reader_activity,Last 24 hours,23.0
+ol-OL34952081W,reader_activity,"Average day, previous week",10.14
+ol-OL34952081W,reader_activity,Last 24 hours,12.0
+ol-OL28181491W,reader_activity,"Average day, previous week",70.86
+ol-OL28181491W,reader_activity,Last 24 hours,74.0
+ol-OL38035515W,reader_activity,"Average day, previous week",13.71
+ol-OL38035515W,reader_activity,Last 24 hours,15.0
+ol-OL38128674W,reader_activity,"Average day, previous week",108.29
+ol-OL38128674W,reader_activity,Last 24 hours,112.0
+ol-OL27818823W,reader_activity,"Average day, previous week",60.0
+ol-OL27818823W,reader_activity,Last 24 hours,63.0
+ol-OL28803485W,reader_activity,"Average day, previous week",14.29
+ol-OL28803485W,reader_activity,Last 24 hours,15.0
+ol-OL37572598W,reader_activity,"Average day, previous week",6.57
+ol-OL37572598W,reader_activity,Last 24 hours,14.0
+ol-OL28020413W,reader_activity,"Average day, previous week",11.14
+ol-OL28020413W,reader_activity,Last 24 hours,15.0
+ol-OL28051862W,reader_activity,"Average day, previous week",0.14
+ol-OL28051862W,reader_activity,Last 24 hours,0.0
+ol-OL24576090W,reader_activity,"Average day, previous week",0.57
+ol-OL24576090W,reader_activity,Last 24 hours,0.0
+ol-OL43696498W,reader_activity,"Average day, previous week",6.71
+ol-OL43696498W,reader_activity,Last 24 hours,23.0
+ol-OL35781509W,reader_activity,"Average day, previous week",10.57
+ol-OL35781509W,reader_activity,Last 24 hours,16.0
+ol-OL34224558W,reader_activity,"Average day, previous week",80.43
+ol-OL34224558W,reader_activity,Last 24 hours,94.0
+ol-OL42406707W,reader_activity,"Average day, previous week",50.71
+ol-OL42406707W,reader_activity,Last 24 hours,56.0
+ol-OL45177696W,reader_activity,"Average day, previous week",16.14
+ol-OL45177696W,reader_activity,Last 24 hours,20.0
+ol-OL42542598W,reader_activity,"Average day, previous week",53.86
+ol-OL42542598W,reader_activity,Last 24 hours,61.0
+ol-OL28420475W,reader_activity,"Average day, previous week",0.29
+ol-OL28420475W,reader_activity,Last 24 hours,1.0
+ol-OL26428114W,reader_activity,"Average day, previous week",0.14
+ol-OL26428114W,reader_activity,Last 24 hours,0.0
+ol-OL24509139W,reader_activity,"Average day, previous week",0.14
+ol-OL24509139W,reader_activity,Last 24 hours,0.0
+ol-OL25348411W,reader_activity,"Average day, previous week",0.57
+ol-OL25348411W,reader_activity,Last 24 hours,2.0

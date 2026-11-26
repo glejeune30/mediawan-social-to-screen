@@ -19,18 +19,24 @@ PAGEVIEWS = (
 ACTION_API = "https://{lang}.wikipedia.org/w/api.php"
 
 
+_SESSION: requests.Session | None = None
+
+
 def _session() -> requests.Session:
-    s = requests.Session()
-    s.headers["User-Agent"] = USER_AGENT
-    return s
+    """One shared connection (keep-alive): faster and gentler on Wikimedia's servers."""
+    global _SESSION
+    if _SESSION is None:
+        _SESSION = requests.Session()
+        _SESSION.headers["User-Agent"] = USER_AGENT
+    return _SESSION
 
 
-def _get(url: str, params: dict | None = None, retries: int = 4) -> requests.Response:
+def _get(url: str, params: dict | None = None, retries: int = 5) -> requests.Response:
     """GET with polite back-off: Wikimedia answers 429 when called too fast."""
     for attempt in range(retries):
         r = _session().get(url, params=params, timeout=30)
         if r.status_code != 429:
-            time.sleep(1)  # stay well under the rate limit
+            time.sleep(0.5 if "api.php" in url else 1.0)  # stay well under the rate limits
             return r
         time.sleep(5 * (attempt + 1))
     return r
@@ -55,6 +61,72 @@ def monthly_pageviews(article: str, start: str = "2015-07-01", end: str = "2026-
         "value": [i["views"] for i in items],
     })
     return df
+
+
+def _query(params: dict, lang: str = "en") -> dict:
+    base = {"action": "query", "format": "json", "formatversion": 2}
+    r = _get(ACTION_API.format(lang=lang), params={**base, **params})
+    r.raise_for_status()
+    return r.json()
+
+
+def page_info(titles: list[str], with_categories: bool = False) -> dict[str, dict]:
+    """For each requested title: the final page (after redirects) with its short description,
+    whether it is a disambiguation page and (optionally) its categories. Missing pages are left
+    out. Up to 50 titles per request."""
+    out: dict[str, dict] = {}
+    prop = "description|pageprops" + ("|categories" if with_categories else "")
+    for i in range(0, len(titles), 50):
+        batch = titles[i:i + 50]
+        js = _query({"titles": "|".join(batch), "redirects": 1, "prop": prop,
+                     "ppprop": "disambiguation", "cllimit": "max", "clshow": "!hidden"})
+        q = js.get("query", {})
+        alias = {t: t for t in batch}
+        for n in q.get("normalized", []):
+            for k, v in alias.items():
+                if v == n["from"]:
+                    alias[k] = n["to"]
+        for rd in q.get("redirects", []):
+            for k, v in alias.items():
+                if v == rd["from"]:
+                    alias[k] = rd["to"]
+        pages = {p["title"]: p for p in q.get("pages", []) if not p.get("missing")}
+        # categories can be paginated: fetch the rest if needed
+        cont = js.get("continue")
+        while cont and "clcontinue" in cont:
+            more = _query({"titles": "|".join(batch), "redirects": 1, "prop": "categories",
+                           "cllimit": "max", "clshow": "!hidden", **cont})
+            for p in more.get("query", {}).get("pages", []):
+                if p["title"] in pages and p.get("categories"):
+                    pages[p["title"]].setdefault("categories", []).extend(p["categories"])
+            cont = more.get("continue")
+        for requested, final in alias.items():
+            p = pages.get(final)
+            if p:
+                out[requested] = {
+                    "title": p["title"],
+                    "description": (p.get("description") or "").lower(),
+                    "disambiguation": "disambiguation" in (p.get("pageprops") or {}),
+                    "categories": [c["title"].removeprefix("Category:")
+                                   for c in p.get("categories", [])],
+                }
+    return out
+
+
+def search_titles(text: str, limit: int = 5) -> list[str]:
+    js = _query({"list": "search", "srsearch": text, "srlimit": limit, "srnamespace": 0})
+    return [s["title"] for s in js.get("query", {}).get("search", [])]
+
+
+def search_pages(text: str, limit: int = 4) -> list[dict]:
+    """Full-text search returning pages with their short description, in one request."""
+    js = _query({"generator": "search", "gsrsearch": text, "gsrlimit": limit,
+                 "gsrnamespace": 0, "prop": "description|pageprops",
+                 "ppprop": "disambiguation"})
+    pages = sorted(js.get("query", {}).get("pages", []), key=lambda p: p.get("index", 99))
+    return [{"title": p["title"], "description": (p.get("description") or "").lower(),
+             "disambiguation": "disambiguation" in (p.get("pageprops") or {}),
+             "categories": []} for p in pages]
 
 
 def creation_date(article: str, lang: str = "en") -> pd.Timestamp | None:

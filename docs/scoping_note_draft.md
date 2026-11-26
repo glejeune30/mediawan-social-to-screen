@@ -38,6 +38,8 @@ who already knows.
 
 | Role | Source | Why |
 |---|---|---|
+| Early signal (live) | AniList API | Webtoon fans list the series they follow; daily snapshots show how fast a fan base grows; adaptations are listed |
+| Early signal (live) | Open Library API | Readers log what they want to read or are reading; recent activity versus the previous week shows acceleration |
 | Early signal | YouTube Data API | Official and free; BookTube and webtoon reviewers react early; history can be rebuilt by publication date |
 | Early signal | Reddit API | Fan communities recommend titles first; official API; used for the live radar (limited history) |
 | Early signal | Webtoon and Wattpad public rankings | New entries and fast climbers; snapshots within the terms of use |
@@ -77,6 +79,13 @@ alert before the deal for **3 of 4** recent adaptations:
 Lead time is counted from the end of the alert month, when the data is actually available.
 *Heartstopper* was missed: its searches grew tenfold between 2018 and 2020, but never doubled
 within a few months. This calls for a slow-growth indicator and for the community sources.
+
+## 5b. Prototype (26 November)
+
+*Story Radar* already runs on live public data without API keys: webtoons trending among AniList
+fans and recent fiction trending among Open Library readers, each matched to its English Wikipedia
+page. Every story gets a status (Act now, Prepare, Watch, Already adapted), a score and the
+reasons, on a radar map and a filterable watchlist, with one page per story.
 
 ## 6. Limits
 

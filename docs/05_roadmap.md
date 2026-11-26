@@ -16,6 +16,7 @@
 | When | What | Done when |
 |---|---|---|
 | Thu 26 Nov | Framing, benchmark, sources, proof of concept on 4 deals, OTG1 deck and script | Deck rehearsed in 5 min |
+| Thu 26 Nov | ✅ Prototype v0 "Story Radar" on live public data (AniList, Open Library, Wikipedia) | Done: watchlist, radar map, story pages, backtest |
 | Fri 27 Nov | **OTG1**, write down every piece of jury feedback in `docs/feedback_log.md` | Feedback logged |
 | Sat 28 Nov - Tue 1 Dec | API keys (YouTube, Reddit, NYT), YouTube + Reddit collection, title matching, control set of ~10 titles | Data for 4 sources in `data/processed` |
 | Tue 1 - Wed 2 Dec | Indicators on all sources, emergence score, backtest with false-alarm rate | Backtest table with hit rate, lead time, false alarms |

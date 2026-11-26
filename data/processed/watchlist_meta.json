@@ -1,0 +1,19 @@
+{
+  "snapshot": "2026-11-26",
+  "wikipedia_last_month": "October 2026",
+  "stories": 105,
+  "books": 55,
+  "webtoons": 50,
+  "with_wikipedia_page": 25,
+  "status_counts": {
+    "Watch": 54,
+    "Prepare": 30,
+    "Act now": 11,
+    "Already adapted": 10
+  },
+  "sources": [
+    "AniList (webtoon fans)",
+    "Open Library (book readers)",
+    "Wikipedia (mainstream gauge)"
+  ]
+}

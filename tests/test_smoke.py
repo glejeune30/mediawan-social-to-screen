@@ -39,6 +39,30 @@ def test_score_and_status():
     assert status(emergence_score([1.1], None, 0, 3)) == "Watch"
 
 
+def test_watchlist_status_rules():
+    from radar.watchlist import score
+    n = 10
+    df = pd.DataFrame({
+        "story_id": [f"s{i}" for i in range(n)],
+        "format": ["Webtoon"] * n,
+        "accel_signal": np.linspace(0.0, 0.2, n),          # s9 accelerates most
+        "activity_now": np.linspace(1, 10, n),
+        "wiki_views_month": [np.nan] * (n - 2) + [500_000, 1_000],
+        "wiki_momentum": [np.nan] * (n - 2) + [1.0, 2.0],
+        "wiki_page_age_months": [np.nan] * (n - 2) + [40, 5],
+        "wiki_adapted": [False] * n,
+        "adaptation": [None] * (n - 3) + ["Anime (2026)", None, None],
+        "fans_now": [1000] * n, "growth_90d": np.linspace(0.0, 0.2, n),
+        "last_24h": [0] * n, "previous_days_avg": [0] * n,
+    })
+    out = score(df).set_index("story_id")
+    assert out.loc["s7", "status"] == "Already adapted"
+    assert out.loc["s9", "status"] == "Act now"        # top acceleration, small page (1k views)
+    assert out.loc["s8", "status"] == "Prepare"        # accelerating but already well known
+    assert out.loc["s0", "status"] == "Watch"
+    assert out["score"].between(0, 100).all()
+
+
 def test_streamlit_app_runs():
     if not (ROOT / "data" / "processed" / "backtest_results.csv").exists():
         return

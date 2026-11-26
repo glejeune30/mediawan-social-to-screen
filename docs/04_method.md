@@ -48,6 +48,28 @@ as the mainstream marker (date of the first page). Results: `data/processed/back
 
 Weights are a starting point; we will calibrate them on the backtest and the control group.
 
+## 4b. Live watchlist v0 (prototype, sources without API keys)
+
+Built by `scripts/run_watchlist.py`, logic in `src/radar/watchlist.py`.
+
+| Question | Webtoons | Books |
+|---|---|---|
+| Accelerating? | AniList fans today vs 90 days ago (70 %) + AniList activity now (30 %) | Open Library reader logs, last 24 h vs previous week (z-score, 70 %) + volume in the last 24 h (30 %) |
+| Spreading? | Wikipedia page less than 12 months old, or views +25 % vs the previous 6 months | same |
+| Mainstream unaware? | No English Wikipedia page, or fewer than about 6,000 views a month (log scale: 100 views = unknown, 1M = mainstream) | same |
+
+- Acceleration is ranked **within each format** (books are compared with books, webtoons with webtoons).
+- Score = 60 % acceleration + 25 % unawareness + 15 % spreading.
+- Status rules: **Already adapted** (anime relation on AniList, a Wikipedia "adapted into"
+  category, or a TV series / film page under the story's own title) › **Act now** (acceleration
+  in the top 10 % of its format and mainstream unaware) › **Prepare** (top 40 %) › **Watch**.
+- Wikipedia pages are matched by exact title variants ("Title (novel)", "Title (manhwa)"…), then
+  by search. A page is accepted only if its title matches (or, for books, it names the same
+  author), its short description says it is a novel / manhwa / webtoon (or its TV / film
+  adaptation), and, for books with the same title, the year matches.
+- Cleaning: books with no reader activity in the last 8 days, titles outside the Latin alphabet
+  and books by Open Library's own team are left out.
+
 ## 5. Backtest protocol
 
 1. **Positive set**: titles adapted recently, with a public announcement date
