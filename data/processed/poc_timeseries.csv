@@ -1,0 +1,853 @@
+date,value,level,momentum,alert,source,title,window
+2017-03-01,0.0,,,False,google_trends,Solo Leveling,backtest
+2017-04-01,0.0,,,False,google_trends,Solo Leveling,backtest
+2017-05-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2017-06-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2017-07-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2017-08-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2017-09-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2017-10-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2017-11-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2017-12-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-01-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-02-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-03-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-04-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-05-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-06-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-07-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-08-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-09-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-10-01,0.0,0.0,,False,google_trends,Solo Leveling,backtest
+2018-11-01,6.0,2.0,inf,False,google_trends,Solo Leveling,backtest
+2018-12-01,24.0,10.0,inf,True,google_trends,Solo Leveling,backtest
+2019-01-01,25.0,18.333333333333332,inf,True,google_trends,Solo Leveling,backtest
+2019-02-01,20.0,23.0,23.0,True,google_trends,Solo Leveling,backtest
+2019-03-01,21.0,22.0,4.4,True,google_trends,Solo Leveling,backtest
+2019-04-01,27.0,22.666666666666668,2.472727272727273,True,google_trends,Solo Leveling,backtest
+2019-05-01,34.0,27.333333333333332,2.1866666666666665,True,google_trends,Solo Leveling,backtest
+2019-06-01,42.0,34.333333333333336,2.1458333333333335,True,google_trends,Solo Leveling,backtest
+2019-07-01,33.0,36.333333333333336,1.7723577235772359,False,google_trends,Solo Leveling,backtest
+2019-08-01,35.0,36.666666666666664,1.4569536423841059,False,google_trends,Solo Leveling,backtest
+2019-09-01,33.0,33.666666666666664,1.195266272189349,False,google_trends,Solo Leveling,backtest
+2019-10-01,28.0,32.0,1.0847457627118644,False,google_trends,Solo Leveling,backtest
+2019-11-01,46.0,35.666666666666664,1.1145833333333333,False,google_trends,Solo Leveling,backtest
+2019-12-01,36.0,36.666666666666664,1.0784313725490196,False,google_trends,Solo Leveling,backtest
+2020-01-01,59.0,47.0,1.375609756097561,False,google_trends,Solo Leveling,backtest
+2020-02-01,46.0,47.0,1.2995391705069126,False,google_trends,Solo Leveling,backtest
+2020-03-01,42.0,49.0,1.3933649289099528,False,google_trends,Solo Leveling,backtest
+2020-04-01,30.0,39.333333333333336,0.9957805907172996,False,google_trends,Solo Leveling,backtest
+2020-05-01,26.0,32.666666666666664,0.7903225806451611,False,google_trends,Solo Leveling,backtest
+2020-06-01,24.0,26.666666666666668,0.622568093385214,False,google_trends,Solo Leveling,backtest
+2020-07-01,28.0,26.0,0.6023166023166023,False,google_trends,Solo Leveling,backtest
+2020-08-01,67.0,39.666666666666664,0.9958158995815899,False,google_trends,Solo Leveling,backtest
+2020-09-01,59.0,51.333333333333336,1.356828193832599,False,google_trends,Solo Leveling,backtest
+2020-10-01,59.0,61.666666666666664,1.8877551020408163,False,google_trends,Solo Leveling,backtest
+2020-11-01,69.0,62.333333333333336,1.7235023041474655,False,google_trends,Solo Leveling,backtest
+2020-12-01,60.0,62.666666666666664,1.6068376068376067,False,google_trends,Solo Leveling,backtest
+2021-01-01,51.0,60.0,1.3688212927756653,False,google_trends,Solo Leveling,backtest
+2021-02-01,49.0,53.333333333333336,1.0457516339869282,False,google_trends,Solo Leveling,backtest
+2021-03-01,73.0,57.666666666666664,1.0116959064327484,False,google_trends,Solo Leveling,backtest
+2021-04-01,100.0,74.0,1.2164383561643834,False,google_trends,Solo Leveling,backtest
+2021-05-01,73.0,82.0,1.4178674351585014,False,google_trends,Solo Leveling,backtest
+2021-06-01,91.0,88.0,1.4626038781163435,False,google_trends,Solo Leveling,backtest
+2021-07-01,70.0,78.0,1.164179104477612,False,google_trends,Solo Leveling,backtest
+2021-08-01,74.0,78.33333333333333,1.1576354679802954,False,google_trends,Solo Leveling,backtest
+2021-09-01,63.0,69.0,0.9473684210526316,False,google_trends,Solo Leveling,backtest
+2021-10-01,57.0,64.66666666666667,0.8508771929824562,False,google_trends,Solo Leveling,backtest
+2021-11-01,45.0,55.0,0.686070686070686,False,google_trends,Solo Leveling,backtest
+2021-12-01,54.0,52.0,0.6624203821656051,False,google_trends,Solo Leveling,backtest
+2022-01-01,55.0,51.333333333333336,0.7196261682242991,False,google_trends,Solo Leveling,backtest
+2022-02-01,34.0,47.666666666666664,0.715,False,google_trends,Solo Leveling,backtest
+2022-03-01,33.0,40.666666666666664,0.6721763085399448,False,google_trends,Solo Leveling,backtest
+2022-04-01,29.0,32.0,0.5517241379310345,False,google_trends,Solo Leveling,backtest
+2022-05-01,27.0,29.666666666666668,0.577922077922078,False,google_trends,Solo Leveling,backtest
+2022-06-01,33.0,29.666666666666668,0.6402877697841727,False,google_trends,Solo Leveling,backtest
+2022-07-01,62.0,40.666666666666664,0.976,False,google_trends,Solo Leveling,backtest
+2015-09-01,6.0,,,False,google_trends,Heartstopper,backtest
+2015-10-01,6.0,,,False,google_trends,Heartstopper,backtest
+2015-11-01,3.0,5.0,,False,google_trends,Heartstopper,backtest
+2015-12-01,4.0,4.333333333333333,,False,google_trends,Heartstopper,backtest
+2016-01-01,3.0,3.3333333333333335,,False,google_trends,Heartstopper,backtest
+2016-02-01,4.0,3.6666666666666665,,False,google_trends,Heartstopper,backtest
+2016-03-01,3.0,3.3333333333333335,,False,google_trends,Heartstopper,backtest
+2016-04-01,4.0,3.6666666666666665,,False,google_trends,Heartstopper,backtest
+2016-05-01,5.0,4.0,0.9230769230769231,False,google_trends,Heartstopper,backtest
+2016-06-01,4.0,4.333333333333333,1.1304347826086956,False,google_trends,Heartstopper,backtest
+2016-07-01,2.0,3.6666666666666665,1.0476190476190477,False,google_trends,Heartstopper,backtest
+2016-08-01,3.0,3.0,0.7826086956521738,False,google_trends,Heartstopper,backtest
+2016-09-01,2.0,2.3333333333333335,0.6086956521739131,False,google_trends,Heartstopper,backtest
+2016-10-01,3.0,2.6666666666666665,0.7272727272727273,False,google_trends,Heartstopper,backtest
+2016-11-01,3.0,2.6666666666666665,0.7619047619047619,False,google_trends,Heartstopper,backtest
+2016-12-01,4.0,3.3333333333333335,1.0,False,google_trends,Heartstopper,backtest
+2017-01-01,3.0,3.3333333333333335,1.0526315789473686,False,google_trends,Heartstopper,backtest
+2017-02-01,3.0,3.3333333333333335,1.1764705882352942,False,google_trends,Heartstopper,backtest
+2017-03-01,2.0,2.6666666666666665,0.9411764705882352,False,google_trends,Heartstopper,backtest
+2017-04-01,1.0,2.0,0.6666666666666666,False,google_trends,Heartstopper,backtest
+2017-05-01,3.0,2.0,0.6666666666666666,False,google_trends,Heartstopper,backtest
+2017-06-01,3.0,2.3333333333333335,0.7777777777777778,False,google_trends,Heartstopper,backtest
+2017-07-01,4.0,3.3333333333333335,1.2500000000000002,False,google_trends,Heartstopper,backtest
+2017-08-01,3.0,3.3333333333333335,1.2500000000000002,False,google_trends,Heartstopper,backtest
+2017-09-01,5.0,4.0,1.6,False,google_trends,Heartstopper,backtest
+2017-10-01,5.0,4.333333333333333,1.625,False,google_trends,Heartstopper,backtest
+2017-11-01,5.0,5.0,1.875,False,google_trends,Heartstopper,backtest
+2017-12-01,5.0,5.0,1.5789473684210527,False,google_trends,Heartstopper,backtest
+2018-01-01,5.0,5.0,1.3043478260869565,False,google_trends,Heartstopper,backtest
+2018-02-01,3.0,4.333333333333333,1.0399999999999998,False,google_trends,Heartstopper,backtest
+2018-03-01,4.0,4.0,0.8888888888888888,False,google_trends,Heartstopper,backtest
+2018-04-01,4.0,3.6666666666666665,0.7857142857142856,False,google_trends,Heartstopper,backtest
+2018-05-01,5.0,4.333333333333333,0.9285714285714285,False,google_trends,Heartstopper,backtest
+2018-06-01,6.0,5.0,1.1111111111111112,False,google_trends,Heartstopper,backtest
+2018-07-01,6.0,5.666666666666667,1.307692307692308,False,google_trends,Heartstopper,backtest
+2018-08-01,6.0,6.0,1.3846153846153848,False,google_trends,Heartstopper,backtest
+2018-09-01,7.0,6.333333333333333,1.4074074074074074,False,google_trends,Heartstopper,backtest
+2018-10-01,9.0,7.333333333333333,1.5714285714285712,False,google_trends,Heartstopper,backtest
+2018-11-01,8.0,8.0,1.5483870967741935,False,google_trends,Heartstopper,backtest
+2018-12-01,7.0,8.0,1.4117647058823528,False,google_trends,Heartstopper,backtest
+2019-01-01,10.0,8.333333333333334,1.2820512820512822,False,google_trends,Heartstopper,backtest
+2019-02-01,10.0,9.0,1.2857142857142858,False,google_trends,Heartstopper,backtest
+2019-03-01,10.0,10.0,1.3953488372093024,False,google_trends,Heartstopper,backtest
+2019-04-01,13.0,11.0,1.4042553191489362,False,google_trends,Heartstopper,backtest
+2019-05-01,11.0,11.333333333333334,1.3333333333333335,False,google_trends,Heartstopper,backtest
+2019-06-01,16.0,13.333333333333334,1.4814814814814816,False,google_trends,Heartstopper,backtest
+2019-07-01,20.0,15.666666666666666,1.620689655172414,False,google_trends,Heartstopper,backtest
+2019-08-01,20.0,18.666666666666668,1.836065573770492,False,google_trends,Heartstopper,backtest
+2019-09-01,23.0,21.0,1.8,False,google_trends,Heartstopper,backtest
+2019-10-01,20.0,21.0,1.575,False,google_trends,Heartstopper,backtest
+2019-11-01,20.0,21.0,1.4,False,google_trends,Heartstopper,backtest
+2019-12-01,24.0,21.333333333333332,1.2427184466019416,False,google_trends,Heartstopper,backtest
+2020-01-01,25.0,23.0,1.2545454545454546,False,google_trends,Heartstopper,backtest
+2020-02-01,35.0,28.0,1.411764705882353,False,google_trends,Heartstopper,backtest
+2020-03-01,35.0,31.666666666666668,1.4960629921259843,False,google_trends,Heartstopper,backtest
+2020-04-01,35.0,35.0,1.5909090909090908,False,google_trends,Heartstopper,backtest
+2020-05-01,43.0,37.666666666666664,1.5374149659863945,False,google_trends,Heartstopper,backtest
+2020-06-01,52.0,43.333333333333336,1.6352201257861636,False,google_trends,Heartstopper,backtest
+2020-07-01,50.0,48.333333333333336,1.6666666666666667,False,google_trends,Heartstopper,backtest
+2020-08-01,48.0,50.0,1.5228426395939085,False,google_trends,Heartstopper,backtest
+2020-09-01,39.0,45.666666666666664,1.2177777777777776,False,google_trends,Heartstopper,backtest
+2020-10-01,35.0,40.666666666666664,0.976,False,google_trends,Heartstopper,backtest
+2020-11-01,41.0,38.333333333333336,0.8745247148288974,False,google_trends,Heartstopper,backtest
+2020-12-01,53.0,43.0,0.9662921348314607,False,google_trends,Heartstopper,backtest
+2021-01-01,100.0,64.66666666666667,1.453183520599251,False,google_trends,Heartstopper,backtest
+2018-04-01,0.0,,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-05-01,0.0,,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-06-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-07-01,2.6,0.8666666666666667,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-08-01,0.0,0.8666666666666667,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-09-01,0.0,0.8666666666666667,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-10-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-11-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2018-12-01,0.0,0.0,0.0,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-01-01,0.0,0.0,0.0,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-02-01,0.0,0.0,0.0,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-03-01,0.0,0.0,0.0,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-04-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-05-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-06-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-07-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-08-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-09-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-10-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-11-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2019-12-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-01-01,0.0,0.0,,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-02-01,2.5,0.8333333333333334,inf,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-03-01,8.6,3.6999999999999997,inf,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-04-01,9.0,6.7,inf,True,google_trends,A Good Girl's Guide to Murder,backtest
+2020-05-01,12.0,9.866666666666667,23.68,True,google_trends,A Good Girl's Guide to Murder,backtest
+2020-06-01,8.75,9.916666666666666,5.36036036036036,True,google_trends,A Good Girl's Guide to Murder,backtest
+2020-07-01,6.5,9.083333333333334,2.711442786069652,True,google_trends,A Good Girl's Guide to Murder,backtest
+2020-08-01,11.6,8.950000000000001,1.6728971962616823,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-09-01,7.25,8.450000000000001,1.2411260709914322,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-10-01,2.75,7.2,0.9123548046462513,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-11-01,5.0,5.0,0.5314437555358724,False,google_trends,A Good Girl's Guide to Murder,backtest
+2020-12-01,8.5,5.416666666666667,0.58983666061706,False,google_trends,A Good Girl's Guide to Murder,backtest
+2021-01-01,12.6,8.700000000000001,1.0685772773797342,False,google_trends,A Good Girl's Guide to Murder,backtest
+2021-02-01,15.25,12.116666666666667,1.7371565113500602,False,google_trends,A Good Girl's Guide to Murder,backtest
+2021-03-01,21.25,16.366666666666667,2.3605769230769234,False,google_trends,A Good Girl's Guide to Murder,backtest
+2021-04-01,20.75,19.083333333333332,2.40041928721174,True,google_trends,A Good Girl's Guide to Murder,backtest
+2021-05-01,23.0,21.666666666666668,2.5316455696202538,True,google_trends,A Good Girl's Guide to Murder,backtest
+2021-06-01,28.0,23.916666666666668,2.1958684009181333,True,google_trends,A Good Girl's Guide to Murder,backtest
+2021-07-01,32.75,27.916666666666668,2.0095980803839235,True,google_trends,A Good Girl's Guide to Murder,backtest
+2021-08-01,46.8,35.85,2.1223482979773065,True,google_trends,A Good Girl's Guide to Murder,backtest
+2021-09-01,34.0,37.85,1.879189077368639,False,google_trends,A Good Girl's Guide to Murder,backtest
+2021-10-01,47.0,42.6,1.8127659574468085,False,google_trends,A Good Girl's Guide to Murder,backtest
+2021-11-01,47.0,42.666666666666664,1.4836279339321934,False,google_trends,A Good Girl's Guide to Murder,backtest
+2021-12-01,62.5,52.166666666666664,1.6891527253103074,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-01-01,83.8,64.43333333333334,1.8274639565114632,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-02-01,82.25,76.18333333333334,1.9405646359583955,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-03-01,74.0,80.01666666666667,1.7778189224217738,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-04-01,81.0,79.08333333333333,1.477732793522267,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-05-01,71.8,75.6,1.2721918384518303,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-06-01,65.5,72.76666666666667,1.1009960912873535,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-07-01,71.4,69.56666666666668,0.9694576704215541,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-08-01,84.25,73.71666666666667,0.9713407269133634,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-09-01,96.0,83.88333333333334,1.098069161121414,False,google_trends,A Good Girl's Guide to Murder,backtest
+2022-05-01,0.0,,,False,google_trends,Fourth Wing,backtest
+2022-06-01,0.0,,,False,google_trends,Fourth Wing,backtest
+2022-07-01,0.2,0.06666666666666667,,False,google_trends,Fourth Wing,backtest
+2022-08-01,0.0,0.06666666666666667,,False,google_trends,Fourth Wing,backtest
+2022-09-01,0.0,0.06666666666666667,,False,google_trends,Fourth Wing,backtest
+2022-10-01,0.0,0.0,,False,google_trends,Fourth Wing,backtest
+2022-11-01,0.0,0.0,,False,google_trends,Fourth Wing,backtest
+2022-12-01,0.0,0.0,,False,google_trends,Fourth Wing,backtest
+2023-01-01,0.2,0.06666666666666667,2.0,False,google_trends,Fourth Wing,backtest
+2023-02-01,0.0,0.06666666666666667,2.0,False,google_trends,Fourth Wing,backtest
+2023-03-01,0.5,0.2333333333333333,6.999999999999999,False,google_trends,Fourth Wing,backtest
+2023-04-01,2.4,0.9666666666666667,29.0,False,google_trends,Fourth Wing,backtest
+2023-05-01,32.25,11.716666666666667,351.5,False,google_trends,Fourth Wing,backtest
+2023-06-01,88.5,41.050000000000004,351.85714285714295,True,google_trends,Fourth Wing,backtest
+2023-07-01,83.8,68.18333333333334,131.9677419354839,True,google_trends,Fourth Wing,backtest
+2023-08-01,74.75,82.35000000000001,13.977369165487978,True,google_trends,Fourth Wing,backtest
+2023-09-01,69.0,75.85000000000001,3.6746063786838925,True,google_trends,Fourth Wing,backtest
+2023-10-01,80.0,74.58333333333333,2.1571463003133284,True,google_trends,Fourth Wing,backtest
+2019-08-01,5407.0,,,,wikipedia,Solo Leveling,full
+2019-09-01,6087.0,,,,wikipedia,Solo Leveling,full
+2019-10-01,11056.0,,,,wikipedia,Solo Leveling,full
+2019-11-01,45802.0,,,,wikipedia,Solo Leveling,full
+2019-12-01,41339.0,,,,wikipedia,Solo Leveling,full
+2020-01-01,81342.0,,,,wikipedia,Solo Leveling,full
+2020-02-01,76187.0,,,,wikipedia,Solo Leveling,full
+2020-03-01,69930.0,,,,wikipedia,Solo Leveling,full
+2020-04-01,70919.0,,,,wikipedia,Solo Leveling,full
+2020-05-01,73363.0,,,,wikipedia,Solo Leveling,full
+2020-06-01,58831.0,,,,wikipedia,Solo Leveling,full
+2020-07-01,77867.0,,,,wikipedia,Solo Leveling,full
+2020-08-01,100362.0,,,,wikipedia,Solo Leveling,full
+2020-09-01,72493.0,,,,wikipedia,Solo Leveling,full
+2020-10-01,73597.0,,,,wikipedia,Solo Leveling,full
+2020-11-01,81705.0,,,,wikipedia,Solo Leveling,full
+2020-12-01,73724.0,,,,wikipedia,Solo Leveling,full
+2021-01-01,71395.0,,,,wikipedia,Solo Leveling,full
+2021-02-01,58625.0,,,,wikipedia,Solo Leveling,full
+2021-03-01,93748.0,,,,wikipedia,Solo Leveling,full
+2021-04-01,112113.0,,,,wikipedia,Solo Leveling,full
+2021-05-01,89288.0,,,,wikipedia,Solo Leveling,full
+2021-06-01,88545.0,,,,wikipedia,Solo Leveling,full
+2021-07-01,85052.0,,,,wikipedia,Solo Leveling,full
+2021-08-01,82859.0,,,,wikipedia,Solo Leveling,full
+2021-09-01,69947.0,,,,wikipedia,Solo Leveling,full
+2021-10-01,62291.0,,,,wikipedia,Solo Leveling,full
+2021-11-01,59380.0,,,,wikipedia,Solo Leveling,full
+2021-12-01,70804.0,,,,wikipedia,Solo Leveling,full
+2022-01-01,92385.0,,,,wikipedia,Solo Leveling,full
+2022-02-01,50829.0,,,,wikipedia,Solo Leveling,full
+2022-03-01,53449.0,,,,wikipedia,Solo Leveling,full
+2022-04-01,50414.0,,,,wikipedia,Solo Leveling,full
+2022-05-01,46031.0,,,,wikipedia,Solo Leveling,full
+2022-06-01,59409.0,,,,wikipedia,Solo Leveling,full
+2022-07-01,208964.0,,,,wikipedia,Solo Leveling,full
+2022-08-01,82528.0,,,,wikipedia,Solo Leveling,full
+2022-09-01,69347.0,,,,wikipedia,Solo Leveling,full
+2022-10-01,71220.0,,,,wikipedia,Solo Leveling,full
+2022-11-01,76162.0,,,,wikipedia,Solo Leveling,full
+2022-12-01,64965.0,,,,wikipedia,Solo Leveling,full
+2023-01-01,106831.0,,,,wikipedia,Solo Leveling,full
+2023-02-01,84868.0,,,,wikipedia,Solo Leveling,full
+2023-03-01,133577.0,,,,wikipedia,Solo Leveling,full
+2023-04-01,96542.0,,,,wikipedia,Solo Leveling,full
+2023-05-01,82743.0,,,,wikipedia,Solo Leveling,full
+2023-06-01,77120.0,,,,wikipedia,Solo Leveling,full
+2023-07-01,116911.0,,,,wikipedia,Solo Leveling,full
+2023-08-01,78213.0,,,,wikipedia,Solo Leveling,full
+2023-09-01,79335.0,,,,wikipedia,Solo Leveling,full
+2023-10-01,74560.0,,,,wikipedia,Solo Leveling,full
+2023-11-01,82954.0,,,,wikipedia,Solo Leveling,full
+2023-12-01,119130.0,,,,wikipedia,Solo Leveling,full
+2024-01-01,1001049.0,,,,wikipedia,Solo Leveling,full
+2024-02-01,590372.0,,,,wikipedia,Solo Leveling,full
+2024-03-01,523866.0,,,,wikipedia,Solo Leveling,full
+2024-04-01,410762.0,,,,wikipedia,Solo Leveling,full
+2024-05-01,226830.0,,,,wikipedia,Solo Leveling,full
+2024-06-01,129844.0,,,,wikipedia,Solo Leveling,full
+2024-07-01,134800.0,,,,wikipedia,Solo Leveling,full
+2024-08-01,108245.0,,,,wikipedia,Solo Leveling,full
+2024-09-01,90032.0,,,,wikipedia,Solo Leveling,full
+2024-10-01,79810.0,,,,wikipedia,Solo Leveling,full
+2024-11-01,90504.0,,,,wikipedia,Solo Leveling,full
+2024-12-01,190476.0,,,,wikipedia,Solo Leveling,full
+2025-01-01,465051.0,,,,wikipedia,Solo Leveling,full
+2025-02-01,505193.0,,,,wikipedia,Solo Leveling,full
+2025-03-01,917554.0,,,,wikipedia,Solo Leveling,full
+2025-04-01,393075.0,,,,wikipedia,Solo Leveling,full
+2025-05-01,226390.0,,,,wikipedia,Solo Leveling,full
+2025-06-01,188056.0,,,,wikipedia,Solo Leveling,full
+2025-07-01,198494.0,,,,wikipedia,Solo Leveling,full
+2025-08-01,150148.0,,,,wikipedia,Solo Leveling,full
+2025-09-01,123499.0,,,,wikipedia,Solo Leveling,full
+2025-10-01,123702.0,,,,wikipedia,Solo Leveling,full
+2025-11-01,125320.0,,,,wikipedia,Solo Leveling,full
+2025-12-01,122433.0,,,,wikipedia,Solo Leveling,full
+2026-01-01,135935.0,,,,wikipedia,Solo Leveling,full
+2026-02-01,111123.0,,,,wikipedia,Solo Leveling,full
+2026-03-01,101455.0,,,,wikipedia,Solo Leveling,full
+2026-04-01,94133.0,,,,wikipedia,Solo Leveling,full
+2026-05-01,110908.0,,,,wikipedia,Solo Leveling,full
+2026-06-01,97368.0,,,,wikipedia,Solo Leveling,full
+2026-07-01,106280.0,,,,wikipedia,Solo Leveling,full
+2026-08-01,87253.0,,,,wikipedia,Solo Leveling,full
+2026-09-01,77095.0,,,,wikipedia,Solo Leveling,full
+2026-10-01,78810.0,,,,wikipedia,Solo Leveling,full
+2017-03-01,0.0,,,,google_trends,Solo Leveling,full
+2017-04-01,0.0,,,,google_trends,Solo Leveling,full
+2017-05-01,0.0,,,,google_trends,Solo Leveling,full
+2017-06-01,0.0,,,,google_trends,Solo Leveling,full
+2017-07-01,0.0,,,,google_trends,Solo Leveling,full
+2017-08-01,0.0,,,,google_trends,Solo Leveling,full
+2017-09-01,0.0,,,,google_trends,Solo Leveling,full
+2017-10-01,0.0,,,,google_trends,Solo Leveling,full
+2017-11-01,0.0,,,,google_trends,Solo Leveling,full
+2017-12-01,0.0,,,,google_trends,Solo Leveling,full
+2018-01-01,0.0,,,,google_trends,Solo Leveling,full
+2018-02-01,0.0,,,,google_trends,Solo Leveling,full
+2018-03-01,0.0,,,,google_trends,Solo Leveling,full
+2018-04-01,0.0,,,,google_trends,Solo Leveling,full
+2018-05-01,0.0,,,,google_trends,Solo Leveling,full
+2018-06-01,0.0,,,,google_trends,Solo Leveling,full
+2018-07-01,0.0,,,,google_trends,Solo Leveling,full
+2018-08-01,0.0,,,,google_trends,Solo Leveling,full
+2018-09-01,0.0,,,,google_trends,Solo Leveling,full
+2018-10-01,0.0,,,,google_trends,Solo Leveling,full
+2018-11-01,1.0,,,,google_trends,Solo Leveling,full
+2018-12-01,3.0,,,,google_trends,Solo Leveling,full
+2019-01-01,3.0,,,,google_trends,Solo Leveling,full
+2019-02-01,3.0,,,,google_trends,Solo Leveling,full
+2019-03-01,3.0,,,,google_trends,Solo Leveling,full
+2019-04-01,3.0,,,,google_trends,Solo Leveling,full
+2019-05-01,4.0,,,,google_trends,Solo Leveling,full
+2019-06-01,5.0,,,,google_trends,Solo Leveling,full
+2019-07-01,4.0,,,,google_trends,Solo Leveling,full
+2019-08-01,4.0,,,,google_trends,Solo Leveling,full
+2019-09-01,4.0,,,,google_trends,Solo Leveling,full
+2019-10-01,3.0,,,,google_trends,Solo Leveling,full
+2019-11-01,6.0,,,,google_trends,Solo Leveling,full
+2019-12-01,5.0,,,,google_trends,Solo Leveling,full
+2020-01-01,7.0,,,,google_trends,Solo Leveling,full
+2020-02-01,6.0,,,,google_trends,Solo Leveling,full
+2020-03-01,5.0,,,,google_trends,Solo Leveling,full
+2020-04-01,4.0,,,,google_trends,Solo Leveling,full
+2020-05-01,3.0,,,,google_trends,Solo Leveling,full
+2020-06-01,3.0,,,,google_trends,Solo Leveling,full
+2020-07-01,4.0,,,,google_trends,Solo Leveling,full
+2020-08-01,8.0,,,,google_trends,Solo Leveling,full
+2020-09-01,7.0,,,,google_trends,Solo Leveling,full
+2020-10-01,7.0,,,,google_trends,Solo Leveling,full
+2020-11-01,9.0,,,,google_trends,Solo Leveling,full
+2020-12-01,7.0,,,,google_trends,Solo Leveling,full
+2021-01-01,6.0,,,,google_trends,Solo Leveling,full
+2021-02-01,6.0,,,,google_trends,Solo Leveling,full
+2021-03-01,9.0,,,,google_trends,Solo Leveling,full
+2021-04-01,12.0,,,,google_trends,Solo Leveling,full
+2021-05-01,9.0,,,,google_trends,Solo Leveling,full
+2021-06-01,11.0,,,,google_trends,Solo Leveling,full
+2021-07-01,9.0,,,,google_trends,Solo Leveling,full
+2021-08-01,9.0,,,,google_trends,Solo Leveling,full
+2021-09-01,8.0,,,,google_trends,Solo Leveling,full
+2021-10-01,7.0,,,,google_trends,Solo Leveling,full
+2021-11-01,6.0,,,,google_trends,Solo Leveling,full
+2021-12-01,7.0,,,,google_trends,Solo Leveling,full
+2022-01-01,7.0,,,,google_trends,Solo Leveling,full
+2022-02-01,4.0,,,,google_trends,Solo Leveling,full
+2022-03-01,4.0,,,,google_trends,Solo Leveling,full
+2022-04-01,4.0,,,,google_trends,Solo Leveling,full
+2022-05-01,3.0,,,,google_trends,Solo Leveling,full
+2022-06-01,4.0,,,,google_trends,Solo Leveling,full
+2022-07-01,8.0,,,,google_trends,Solo Leveling,full
+2022-08-01,4.0,,,,google_trends,Solo Leveling,full
+2022-09-01,3.0,,,,google_trends,Solo Leveling,full
+2022-10-01,3.0,,,,google_trends,Solo Leveling,full
+2022-11-01,3.0,,,,google_trends,Solo Leveling,full
+2022-12-01,3.0,,,,google_trends,Solo Leveling,full
+2023-01-01,6.0,,,,google_trends,Solo Leveling,full
+2023-02-01,6.0,,,,google_trends,Solo Leveling,full
+2023-03-01,6.0,,,,google_trends,Solo Leveling,full
+2023-04-01,6.0,,,,google_trends,Solo Leveling,full
+2023-05-01,4.0,,,,google_trends,Solo Leveling,full
+2023-06-01,4.0,,,,google_trends,Solo Leveling,full
+2023-07-01,5.0,,,,google_trends,Solo Leveling,full
+2023-08-01,3.0,,,,google_trends,Solo Leveling,full
+2023-09-01,3.0,,,,google_trends,Solo Leveling,full
+2023-10-01,3.0,,,,google_trends,Solo Leveling,full
+2023-11-01,3.0,,,,google_trends,Solo Leveling,full
+2023-12-01,5.0,,,,google_trends,Solo Leveling,full
+2024-01-01,43.0,,,,google_trends,Solo Leveling,full
+2024-02-01,36.0,,,,google_trends,Solo Leveling,full
+2024-03-01,37.0,,,,google_trends,Solo Leveling,full
+2024-04-01,29.0,,,,google_trends,Solo Leveling,full
+2024-05-01,25.0,,,,google_trends,Solo Leveling,full
+2024-06-01,12.0,,,,google_trends,Solo Leveling,full
+2024-07-01,11.0,,,,google_trends,Solo Leveling,full
+2024-08-01,12.0,,,,google_trends,Solo Leveling,full
+2024-09-01,9.0,,,,google_trends,Solo Leveling,full
+2024-10-01,8.0,,,,google_trends,Solo Leveling,full
+2024-11-01,10.0,,,,google_trends,Solo Leveling,full
+2024-12-01,28.0,,,,google_trends,Solo Leveling,full
+2025-01-01,62.0,,,,google_trends,Solo Leveling,full
+2025-02-01,69.0,,,,google_trends,Solo Leveling,full
+2025-03-01,100.0,,,,google_trends,Solo Leveling,full
+2025-04-01,41.0,,,,google_trends,Solo Leveling,full
+2025-05-01,20.0,,,,google_trends,Solo Leveling,full
+2025-06-01,16.0,,,,google_trends,Solo Leveling,full
+2025-07-01,16.0,,,,google_trends,Solo Leveling,full
+2025-08-01,14.0,,,,google_trends,Solo Leveling,full
+2025-09-01,12.0,,,,google_trends,Solo Leveling,full
+2025-10-01,13.0,,,,google_trends,Solo Leveling,full
+2025-11-01,14.0,,,,google_trends,Solo Leveling,full
+2025-12-01,13.0,,,,google_trends,Solo Leveling,full
+2026-01-01,13.0,,,,google_trends,Solo Leveling,full
+2026-02-01,12.0,,,,google_trends,Solo Leveling,full
+2026-03-01,11.0,,,,google_trends,Solo Leveling,full
+2026-04-01,10.0,,,,google_trends,Solo Leveling,full
+2026-05-01,12.0,,,,google_trends,Solo Leveling,full
+2026-06-01,12.0,,,,google_trends,Solo Leveling,full
+2026-07-01,13.0,,,,google_trends,Solo Leveling,full
+2026-08-01,10.0,,,,google_trends,Solo Leveling,full
+2026-09-01,9.0,,,,google_trends,Solo Leveling,full
+2026-10-01,9.0,,,,google_trends,Solo Leveling,full
+2022-04-01,19344.0,,,,wikipedia,Heartstopper,full
+2022-05-01,106210.0,,,,wikipedia,Heartstopper,full
+2022-06-01,32081.0,,,,wikipedia,Heartstopper,full
+2022-07-01,21696.0,,,,wikipedia,Heartstopper,full
+2022-08-01,15277.0,,,,wikipedia,Heartstopper,full
+2022-09-01,13072.0,,,,wikipedia,Heartstopper,full
+2022-10-01,13429.0,,,,wikipedia,Heartstopper,full
+2022-11-01,15076.0,,,,wikipedia,Heartstopper,full
+2022-12-01,13476.0,,,,wikipedia,Heartstopper,full
+2023-01-01,15627.0,,,,wikipedia,Heartstopper,full
+2023-02-01,14388.0,,,,wikipedia,Heartstopper,full
+2023-03-01,11301.0,,,,wikipedia,Heartstopper,full
+2023-04-01,12284.0,,,,wikipedia,Heartstopper,full
+2023-05-01,9242.0,,,,wikipedia,Heartstopper,full
+2023-06-01,9847.0,,,,wikipedia,Heartstopper,full
+2023-07-01,15630.0,,,,wikipedia,Heartstopper,full
+2023-08-01,80715.0,,,,wikipedia,Heartstopper,full
+2023-09-01,19041.0,,,,wikipedia,Heartstopper,full
+2023-10-01,11308.0,,,,wikipedia,Heartstopper,full
+2023-11-01,10015.0,,,,wikipedia,Heartstopper,full
+2023-12-01,13918.0,,,,wikipedia,Heartstopper,full
+2024-01-01,11682.0,,,,wikipedia,Heartstopper,full
+2024-02-01,9195.0,,,,wikipedia,Heartstopper,full
+2024-03-01,11121.0,,,,wikipedia,Heartstopper,full
+2024-04-01,9086.0,,,,wikipedia,Heartstopper,full
+2024-05-01,8701.0,,,,wikipedia,Heartstopper,full
+2024-06-01,7550.0,,,,wikipedia,Heartstopper,full
+2024-07-01,7842.0,,,,wikipedia,Heartstopper,full
+2024-08-01,7632.0,,,,wikipedia,Heartstopper,full
+2024-09-01,16312.0,,,,wikipedia,Heartstopper,full
+2024-10-01,50919.0,,,,wikipedia,Heartstopper,full
+2024-11-01,13798.0,,,,wikipedia,Heartstopper,full
+2024-12-01,9922.0,,,,wikipedia,Heartstopper,full
+2025-01-01,9041.0,,,,wikipedia,Heartstopper,full
+2025-02-01,6996.0,,,,wikipedia,Heartstopper,full
+2025-03-01,7155.0,,,,wikipedia,Heartstopper,full
+2025-04-01,10000.0,,,,wikipedia,Heartstopper,full
+2025-05-01,6791.0,,,,wikipedia,Heartstopper,full
+2025-06-01,6966.0,,,,wikipedia,Heartstopper,full
+2025-07-01,7964.0,,,,wikipedia,Heartstopper,full
+2025-08-01,7622.0,,,,wikipedia,Heartstopper,full
+2025-09-01,7786.0,,,,wikipedia,Heartstopper,full
+2025-10-01,7238.0,,,,wikipedia,Heartstopper,full
+2025-11-01,6348.0,,,,wikipedia,Heartstopper,full
+2025-12-01,7630.0,,,,wikipedia,Heartstopper,full
+2026-01-01,7903.0,,,,wikipedia,Heartstopper,full
+2026-02-01,6346.0,,,,wikipedia,Heartstopper,full
+2026-03-01,6364.0,,,,wikipedia,Heartstopper,full
+2026-04-01,7673.0,,,,wikipedia,Heartstopper,full
+2026-05-01,5946.0,,,,wikipedia,Heartstopper,full
+2026-06-01,8603.0,,,,wikipedia,Heartstopper,full
+2026-07-01,22565.0,,,,wikipedia,Heartstopper,full
+2026-08-01,9238.0,,,,wikipedia,Heartstopper,full
+2026-09-01,5544.0,,,,wikipedia,Heartstopper,full
+2026-10-01,5044.0,,,,wikipedia,Heartstopper,full
+2015-09-01,0.0,,,,google_trends,Heartstopper,full
+2015-10-01,0.0,,,,google_trends,Heartstopper,full
+2015-11-01,0.0,,,,google_trends,Heartstopper,full
+2015-12-01,0.0,,,,google_trends,Heartstopper,full
+2016-01-01,0.0,,,,google_trends,Heartstopper,full
+2016-02-01,0.0,,,,google_trends,Heartstopper,full
+2016-03-01,0.0,,,,google_trends,Heartstopper,full
+2016-04-01,0.0,,,,google_trends,Heartstopper,full
+2016-05-01,0.0,,,,google_trends,Heartstopper,full
+2016-06-01,0.0,,,,google_trends,Heartstopper,full
+2016-07-01,0.0,,,,google_trends,Heartstopper,full
+2016-08-01,0.0,,,,google_trends,Heartstopper,full
+2016-09-01,0.0,,,,google_trends,Heartstopper,full
+2016-10-01,0.0,,,,google_trends,Heartstopper,full
+2016-11-01,0.0,,,,google_trends,Heartstopper,full
+2016-12-01,0.0,,,,google_trends,Heartstopper,full
+2017-01-01,0.0,,,,google_trends,Heartstopper,full
+2017-02-01,0.0,,,,google_trends,Heartstopper,full
+2017-03-01,0.0,,,,google_trends,Heartstopper,full
+2017-04-01,0.0,,,,google_trends,Heartstopper,full
+2017-05-01,0.0,,,,google_trends,Heartstopper,full
+2017-06-01,0.0,,,,google_trends,Heartstopper,full
+2017-07-01,0.0,,,,google_trends,Heartstopper,full
+2017-08-01,0.0,,,,google_trends,Heartstopper,full
+2017-09-01,0.0,,,,google_trends,Heartstopper,full
+2017-10-01,0.0,,,,google_trends,Heartstopper,full
+2017-11-01,0.0,,,,google_trends,Heartstopper,full
+2017-12-01,0.0,,,,google_trends,Heartstopper,full
+2018-01-01,0.0,,,,google_trends,Heartstopper,full
+2018-02-01,0.0,,,,google_trends,Heartstopper,full
+2018-03-01,0.0,,,,google_trends,Heartstopper,full
+2018-04-01,0.0,,,,google_trends,Heartstopper,full
+2018-05-01,0.0,,,,google_trends,Heartstopper,full
+2018-06-01,0.0,,,,google_trends,Heartstopper,full
+2018-07-01,0.0,,,,google_trends,Heartstopper,full
+2018-08-01,0.0,,,,google_trends,Heartstopper,full
+2018-09-01,0.0,,,,google_trends,Heartstopper,full
+2018-10-01,0.0,,,,google_trends,Heartstopper,full
+2018-11-01,0.0,,,,google_trends,Heartstopper,full
+2018-12-01,0.0,,,,google_trends,Heartstopper,full
+2019-01-01,0.0,,,,google_trends,Heartstopper,full
+2019-02-01,0.0,,,,google_trends,Heartstopper,full
+2019-03-01,0.0,,,,google_trends,Heartstopper,full
+2019-04-01,0.0,,,,google_trends,Heartstopper,full
+2019-05-01,0.0,,,,google_trends,Heartstopper,full
+2019-06-01,0.0,,,,google_trends,Heartstopper,full
+2019-07-01,0.0,,,,google_trends,Heartstopper,full
+2019-08-01,0.0,,,,google_trends,Heartstopper,full
+2019-09-01,0.0,,,,google_trends,Heartstopper,full
+2019-10-01,0.0,,,,google_trends,Heartstopper,full
+2019-11-01,0.0,,,,google_trends,Heartstopper,full
+2019-12-01,0.0,,,,google_trends,Heartstopper,full
+2020-01-01,0.0,,,,google_trends,Heartstopper,full
+2020-02-01,0.0,,,,google_trends,Heartstopper,full
+2020-03-01,0.0,,,,google_trends,Heartstopper,full
+2020-04-01,0.0,,,,google_trends,Heartstopper,full
+2020-05-01,0.0,,,,google_trends,Heartstopper,full
+2020-06-01,0.0,,,,google_trends,Heartstopper,full
+2020-07-01,0.0,,,,google_trends,Heartstopper,full
+2020-08-01,0.0,,,,google_trends,Heartstopper,full
+2020-09-01,0.0,,,,google_trends,Heartstopper,full
+2020-10-01,0.0,,,,google_trends,Heartstopper,full
+2020-11-01,0.0,,,,google_trends,Heartstopper,full
+2020-12-01,0.0,,,,google_trends,Heartstopper,full
+2021-01-01,1.0,,,,google_trends,Heartstopper,full
+2021-02-01,1.0,,,,google_trends,Heartstopper,full
+2021-03-01,0.0,,,,google_trends,Heartstopper,full
+2021-04-01,1.0,,,,google_trends,Heartstopper,full
+2021-05-01,1.0,,,,google_trends,Heartstopper,full
+2021-06-01,1.0,,,,google_trends,Heartstopper,full
+2021-07-01,1.0,,,,google_trends,Heartstopper,full
+2021-08-01,1.0,,,,google_trends,Heartstopper,full
+2021-09-01,1.0,,,,google_trends,Heartstopper,full
+2021-10-01,1.0,,,,google_trends,Heartstopper,full
+2021-11-01,1.0,,,,google_trends,Heartstopper,full
+2021-12-01,2.0,,,,google_trends,Heartstopper,full
+2022-01-01,2.0,,,,google_trends,Heartstopper,full
+2022-02-01,3.0,,,,google_trends,Heartstopper,full
+2022-03-01,6.0,,,,google_trends,Heartstopper,full
+2022-04-01,76.0,,,,google_trends,Heartstopper,full
+2022-05-01,100.0,,,,google_trends,Heartstopper,full
+2022-06-01,33.0,,,,google_trends,Heartstopper,full
+2022-07-01,22.0,,,,google_trends,Heartstopper,full
+2022-08-01,14.0,,,,google_trends,Heartstopper,full
+2022-09-01,12.0,,,,google_trends,Heartstopper,full
+2022-10-01,11.0,,,,google_trends,Heartstopper,full
+2022-11-01,11.0,,,,google_trends,Heartstopper,full
+2022-12-01,11.0,,,,google_trends,Heartstopper,full
+2023-01-01,11.0,,,,google_trends,Heartstopper,full
+2023-02-01,9.0,,,,google_trends,Heartstopper,full
+2023-03-01,8.0,,,,google_trends,Heartstopper,full
+2023-04-01,12.0,,,,google_trends,Heartstopper,full
+2023-05-01,8.0,,,,google_trends,Heartstopper,full
+2023-06-01,9.0,,,,google_trends,Heartstopper,full
+2023-07-01,14.0,,,,google_trends,Heartstopper,full
+2023-08-01,76.0,,,,google_trends,Heartstopper,full
+2023-09-01,16.0,,,,google_trends,Heartstopper,full
+2023-10-01,10.0,,,,google_trends,Heartstopper,full
+2023-11-01,8.0,,,,google_trends,Heartstopper,full
+2023-12-01,11.0,,,,google_trends,Heartstopper,full
+2024-01-01,8.0,,,,google_trends,Heartstopper,full
+2024-02-01,7.0,,,,google_trends,Heartstopper,full
+2024-03-01,9.0,,,,google_trends,Heartstopper,full
+2024-04-01,8.0,,,,google_trends,Heartstopper,full
+2024-05-01,7.0,,,,google_trends,Heartstopper,full
+2024-06-01,6.0,,,,google_trends,Heartstopper,full
+2024-07-01,7.0,,,,google_trends,Heartstopper,full
+2024-08-01,7.0,,,,google_trends,Heartstopper,full
+2024-09-01,13.0,,,,google_trends,Heartstopper,full
+2024-10-01,42.0,,,,google_trends,Heartstopper,full
+2024-11-01,9.0,,,,google_trends,Heartstopper,full
+2024-12-01,6.0,,,,google_trends,Heartstopper,full
+2025-01-01,6.0,,,,google_trends,Heartstopper,full
+2025-02-01,5.0,,,,google_trends,Heartstopper,full
+2025-03-01,4.0,,,,google_trends,Heartstopper,full
+2025-04-01,6.0,,,,google_trends,Heartstopper,full
+2025-05-01,4.0,,,,google_trends,Heartstopper,full
+2025-06-01,4.0,,,,google_trends,Heartstopper,full
+2025-07-01,5.0,,,,google_trends,Heartstopper,full
+2025-08-01,4.0,,,,google_trends,Heartstopper,full
+2025-09-01,4.0,,,,google_trends,Heartstopper,full
+2025-10-01,4.0,,,,google_trends,Heartstopper,full
+2025-11-01,4.0,,,,google_trends,Heartstopper,full
+2025-12-01,4.0,,,,google_trends,Heartstopper,full
+2026-01-01,5.0,,,,google_trends,Heartstopper,full
+2026-02-01,4.0,,,,google_trends,Heartstopper,full
+2026-03-01,4.0,,,,google_trends,Heartstopper,full
+2026-04-01,4.0,,,,google_trends,Heartstopper,full
+2026-05-01,4.0,,,,google_trends,Heartstopper,full
+2026-06-01,7.0,,,,google_trends,Heartstopper,full
+2026-07-01,21.0,,,,google_trends,Heartstopper,full
+2026-08-01,7.0,,,,google_trends,Heartstopper,full
+2026-09-01,4.0,,,,google_trends,Heartstopper,full
+2026-10-01,4.0,,,,google_trends,Heartstopper,full
+2021-09-01,256.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2021-10-01,2173.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2021-11-01,3396.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2021-12-01,4473.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-01-01,4959.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-02-01,3437.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-03-01,4619.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-04-01,5497.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-05-01,6054.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-06-01,5375.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-07-01,7332.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-08-01,8172.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-09-01,6842.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-10-01,5767.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-11-01,7939.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2022-12-01,8369.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-01-01,13326.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-02-01,10980.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-03-01,13110.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-04-01,11879.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-05-01,12127.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-06-01,29238.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-07-01,20150.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-08-01,23453.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-09-01,20175.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-10-01,22244.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-11-01,16889.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2023-12-01,27419.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-01-01,31050.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-02-01,26609.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-03-01,27033.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-04-01,34947.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-05-01,34267.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-06-01,62069.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-07-01,199803.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-08-01,457924.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-09-01,78904.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-10-01,46396.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-11-01,37631.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2024-12-01,30767.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-01-01,34663.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-02-01,26901.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-03-01,24411.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-04-01,24804.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-05-01,24088.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-06-01,23074.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-07-01,37998.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-08-01,34713.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-09-01,26055.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-10-01,19776.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-11-01,16729.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2025-12-01,15104.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-01-01,19015.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-02-01,14447.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-03-01,15137.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-04-01,13804.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-05-01,48673.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-06-01,77734.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-07-01,28386.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-08-01,20969.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-09-01,14944.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2026-10-01,13333.0,,,,wikipedia,A Good Girl's Guide to Murder,full
+2018-05-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2018-06-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2018-07-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2018-08-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2018-09-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2018-10-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2018-11-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2018-12-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-01-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-02-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-03-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-04-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-05-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-06-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-07-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-08-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-09-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-10-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-11-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2019-12-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-01-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-02-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-03-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-04-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-05-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-06-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-07-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-08-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-09-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-10-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-11-01,0.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2020-12-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-01-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-02-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-03-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-04-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-05-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-06-01,1.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-07-01,2.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-08-01,2.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-09-01,2.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-10-01,2.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-11-01,2.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2021-12-01,3.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-01-01,4.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-02-01,4.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-03-01,3.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-04-01,4.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-05-01,3.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-06-01,3.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-07-01,3.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-08-01,4.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-09-01,4.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-10-01,3.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-11-01,4.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2022-12-01,5.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-01-01,6.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-02-01,5.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-03-01,5.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-04-01,5.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-05-01,5.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-06-01,8.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-07-01,8.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-08-01,7.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-09-01,6.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-10-01,6.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-11-01,5.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-12-01,7.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-01-01,9.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-02-01,9.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-03-01,9.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-04-01,11.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-05-01,11.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-06-01,21.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-07-01,62.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-08-01,100.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-09-01,21.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-10-01,14.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-11-01,11.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2024-12-01,10.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-01-01,12.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-02-01,10.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-03-01,9.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-04-01,10.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-05-01,10.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-06-01,9.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-07-01,15.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-08-01,18.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-09-01,18.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-10-01,15.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-11-01,12.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2025-12-01,13.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-01-01,14.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-02-01,16.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-03-01,13.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-04-01,14.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-05-01,28.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-06-01,40.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-07-01,15.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-08-01,10.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-09-01,9.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2026-10-01,6.0,,,,google_trends,A Good Girl's Guide to Murder,full
+2023-07-01,990.0,,,,wikipedia,Fourth Wing,full
+2023-08-01,7042.0,,,,wikipedia,Fourth Wing,full
+2023-09-01,57151.0,,,,wikipedia,Fourth Wing,full
+2023-10-01,74574.0,,,,wikipedia,Fourth Wing,full
+2023-11-01,176931.0,,,,wikipedia,Fourth Wing,full
+2023-12-01,177903.0,,,,wikipedia,Fourth Wing,full
+2024-01-01,218916.0,,,,wikipedia,Fourth Wing,full
+2024-02-01,133910.0,,,,wikipedia,Fourth Wing,full
+2024-03-01,134076.0,,,,wikipedia,Fourth Wing,full
+2024-04-01,109179.0,,,,wikipedia,Fourth Wing,full
+2024-05-01,92316.0,,,,wikipedia,Fourth Wing,full
+2024-06-01,79406.0,,,,wikipedia,Fourth Wing,full
+2024-07-01,87929.0,,,,wikipedia,Fourth Wing,full
+2024-08-01,79720.0,,,,wikipedia,Fourth Wing,full
+2024-09-01,66035.0,,,,wikipedia,Fourth Wing,full
+2024-10-01,74187.0,,,,wikipedia,Fourth Wing,full
+2024-11-01,78842.0,,,,wikipedia,Fourth Wing,full
+2024-12-01,107020.0,,,,wikipedia,Fourth Wing,full
+2025-01-01,427830.0,,,,wikipedia,Fourth Wing,full
+2025-02-01,281143.0,,,,wikipedia,Fourth Wing,full
+2025-03-01,165945.0,,,,wikipedia,Fourth Wing,full
+2025-04-01,151867.0,,,,wikipedia,Fourth Wing,full
+2025-05-01,161553.0,,,,wikipedia,Fourth Wing,full
+2025-06-01,135902.0,,,,wikipedia,Fourth Wing,full
+2025-07-01,136245.0,,,,wikipedia,Fourth Wing,full
+2025-08-01,108738.0,,,,wikipedia,Fourth Wing,full
+2025-09-01,85367.0,,,,wikipedia,Fourth Wing,full
+2025-10-01,89055.0,,,,wikipedia,Fourth Wing,full
+2025-11-01,93605.0,,,,wikipedia,Fourth Wing,full
+2025-12-01,82122.0,,,,wikipedia,Fourth Wing,full
+2026-01-01,93707.0,,,,wikipedia,Fourth Wing,full
+2026-02-01,81702.0,,,,wikipedia,Fourth Wing,full
+2026-03-01,75233.0,,,,wikipedia,Fourth Wing,full
+2026-04-01,68282.0,,,,wikipedia,Fourth Wing,full
+2026-05-01,99784.0,,,,wikipedia,Fourth Wing,full
+2026-06-01,79286.0,,,,wikipedia,Fourth Wing,full
+2026-07-01,90570.0,,,,wikipedia,Fourth Wing,full
+2026-08-01,90128.0,,,,wikipedia,Fourth Wing,full
+2026-09-01,85487.0,,,,wikipedia,Fourth Wing,full
+2026-10-01,154740.0,,,,wikipedia,Fourth Wing,full
+2022-05-01,0.0,,,,google_trends,Fourth Wing,full
+2022-06-01,0.0,,,,google_trends,Fourth Wing,full
+2022-07-01,0.0,,,,google_trends,Fourth Wing,full
+2022-08-01,0.0,,,,google_trends,Fourth Wing,full
+2022-09-01,0.0,,,,google_trends,Fourth Wing,full
+2022-10-01,0.0,,,,google_trends,Fourth Wing,full
+2022-11-01,0.0,,,,google_trends,Fourth Wing,full
+2022-12-01,0.0,,,,google_trends,Fourth Wing,full
+2023-01-01,0.0,,,,google_trends,Fourth Wing,full
+2023-02-01,0.0,,,,google_trends,Fourth Wing,full
+2023-03-01,0.0,,,,google_trends,Fourth Wing,full
+2023-04-01,0.2,,,,google_trends,Fourth Wing,full
+2023-05-01,6.5,,,,google_trends,Fourth Wing,full
+2023-06-01,17.25,,,,google_trends,Fourth Wing,full
+2023-07-01,16.2,,,,google_trends,Fourth Wing,full
+2023-08-01,14.75,,,,google_trends,Fourth Wing,full
+2023-09-01,13.25,,,,google_trends,Fourth Wing,full
+2023-10-01,16.0,,,,google_trends,Fourth Wing,full
+2023-11-01,33.25,,,,google_trends,Fourth Wing,full
+2023-12-01,26.2,,,,google_trends,Fourth Wing,full
+2024-01-01,24.0,,,,google_trends,Fourth Wing,full
+2024-02-01,21.75,,,,google_trends,Fourth Wing,full
+2024-03-01,19.4,,,,google_trends,Fourth Wing,full
+2024-04-01,17.0,,,,google_trends,Fourth Wing,full
+2024-05-01,15.25,,,,google_trends,Fourth Wing,full
+2024-06-01,14.8,,,,google_trends,Fourth Wing,full
+2024-07-01,17.75,,,,google_trends,Fourth Wing,full
+2024-08-01,16.5,,,,google_trends,Fourth Wing,full
+2024-09-01,14.8,,,,google_trends,Fourth Wing,full
+2024-10-01,14.75,,,,google_trends,Fourth Wing,full
+2024-11-01,15.75,,,,google_trends,Fourth Wing,full
+2024-12-01,24.4,,,,google_trends,Fourth Wing,full
+2025-01-01,65.75,,,,google_trends,Fourth Wing,full
+2025-02-01,45.0,,,,google_trends,Fourth Wing,full
+2025-03-01,28.6,,,,google_trends,Fourth Wing,full
+2025-04-01,23.5,,,,google_trends,Fourth Wing,full
+2025-05-01,21.75,,,,google_trends,Fourth Wing,full
+2025-06-01,20.0,,,,google_trends,Fourth Wing,full
+2025-07-01,22.5,,,,google_trends,Fourth Wing,full
+2025-08-01,21.8,,,,google_trends,Fourth Wing,full
+2025-09-01,18.5,,,,google_trends,Fourth Wing,full
+2025-10-01,19.25,,,,google_trends,Fourth Wing,full
+2025-11-01,19.2,,,,google_trends,Fourth Wing,full
+2025-12-01,20.75,,,,google_trends,Fourth Wing,full
+2026-01-01,23.0,,,,google_trends,Fourth Wing,full
+2026-02-01,20.75,,,,google_trends,Fourth Wing,full
+2026-03-01,20.2,,,,google_trends,Fourth Wing,full
+2026-04-01,19.5,,,,google_trends,Fourth Wing,full
+2026-05-01,24.4,,,,google_trends,Fourth Wing,full
+2026-06-01,20.75,,,,google_trends,Fourth Wing,full
+2026-07-01,26.5,,,,google_trends,Fourth Wing,full
+2026-08-01,22.0,,,,google_trends,Fourth Wing,full
+2026-09-01,35.75,,,,google_trends,Fourth Wing,full
+2026-10-01,53.75,,,,google_trends,Fourth Wing,full
