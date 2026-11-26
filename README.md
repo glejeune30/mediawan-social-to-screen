@@ -22,6 +22,11 @@ each one a weekly emergence score and a status: **Watch**, **Prepare** or **Act 
 | Fourth Wing | Jun 2023 | Oct 2023 (Amazon MGM Studios) | 3.5 months |
 | Heartstopper | not flagged (slow, steady growth) | Jan 2021 (Netflix) | missed |
 
+- **False-alarm test** on 16 popular stories with no adaptation listed: the same rule fired for
+  **11 of the 12** truly never adapted (precision 29 %), and a trade-press check showed that 4
+  "controls" had in fact been optioned (The Midnight Library; Netflix's Twisted series deal,
+  flagged about three years earlier). Acceleration alone is a first filter, not a decision
+  (`docs/04_method.md`, section 6).
 - On the Grill 1 deck, speaker script and Q&A prep (`presentation/`).
 - **Story Radar prototype** (`app/`), running on live public data without API keys.
 
@@ -70,6 +75,7 @@ src/radar/
   config.py                paths and API keys (read from .env)
 scripts/run_watchlist.py   builds this week's watchlist from live public data
 scripts/run_poc.py         collects data and runs the backtest
+scripts/run_control_test.py  false-alarm test on stories never adapted
 app/streamlit_app.py       Story Radar prototype (radar, story pages, backtest, method)
 .streamlit/config.toml     prototype theme (same colours as the deck)
 data/

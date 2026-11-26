@@ -93,7 +93,8 @@ div[data-testid="stTabs"] button p {{font-size:1rem; font-weight:600;}}
 
 # ---------------------------------------------------------------- data
 DATA_FILES = ["watchlist.csv", "watchlist_series.csv", "watchlist_meta.json",
-              "backtest_results.csv", "poc_timeseries.csv"]
+              "backtest_results.csv", "poc_timeseries.csv", "control_results.csv",
+              "backtest_summary.json"]
 
 
 def data_stamp() -> tuple:
@@ -112,16 +113,20 @@ def load(stamp: tuple):
     bt = pd.read_csv(PROCESSED / "backtest_results.csv",
                      parse_dates=["announcement_date", "radar_alert", "first_wikipedia_page"])
     ts = pd.read_csv(PROCESSED / "poc_timeseries.csv", parse_dates=["date"])
+    ctrl = (pd.read_csv(PROCESSED / "control_results.csv")
+            if (PROCESSED / "control_results.csv").exists() else None)
+    summary = (json.loads((PROCESSED / "backtest_summary.json").read_text(encoding="utf-8"))
+               if (PROCESSED / "backtest_summary.json").exists() else None)
     if wl is not None:
         wl["adaptation"] = wl["adaptation"].fillna("None listed")
         wl["author"] = wl["author"].fillna("")
         wl["genres"] = wl["genres"].fillna("")
         wl["status_rank"] = wl["status"].map({s: i for i, s in enumerate(STATUS_ORDER)})
         wl = wl.sort_values(["status_rank", "score"], ascending=[True, False])
-    return wl, series, meta, bt, ts
+    return wl, series, meta, bt, ts, ctrl, summary
 
 
-wl, series, meta, bt, ts = load(data_stamp())
+wl, series, meta, bt, ts, ctrl, summary = load(data_stamp())
 
 
 def chip(status: str) -> str:
@@ -441,9 +446,50 @@ with tab_bt:
         fig.update_yaxes(title="index (100 = peak)", range=[0, 110])
         st.plotly_chart(style(fig, 360), width="stretch", theme=None,
                         config={"displayModeBar": False})
-    st.caption("Known successes only. Next step: titles that buzzed but were never adapted, to count "
-               "false alarms. Lead time is measured to the public announcement; options are often "
-               "signed earlier, so the real window is shorter.")
+    if ctrl is not None and summary:
+        n_found = summary.get("controls_found_adapted", 0)
+        st.markdown(
+            '<div class="sr-h">And the false alarms?</div><div class="sr-cap">The same rule on '
+            f'{summary["controls_total"] + n_found} stories that buzzed in the same communities, '
+            'chosen before looking at their curves: the webtoons from 2018-2022 with the most '
+            'AniList fans and the most wanted books from 2019-2022 on Open Library, with no '
+            f'adaptation listed. A check in the trade press then showed that {n_found} of them had '
+            'in fact been optioned; they are counted apart.</div>', unsafe_allow_html=True)
+        c = st.columns(4)
+        prec = summary.get("precision")
+        for col, (v, label) in zip(c, [
+                (f'{summary["controls_flagged"]} / {summary["controls_total"]}',
+                 "never-adapted stories that still raised an alert: false alarms"),
+                (f"{prec:.0%}" if prec is not None else "—",
+                 "of all alerts were followed by a deal (precision)"),
+                (str(summary["false_alarms_within_6_months_of_publication"]),
+                 "false alarms in the first 6 months after publication (launch effect)"),
+                (f"{n_found}", "stories we thought free were already optioned: rights need a "
+                               "manual check")]):
+            col.markdown(f'<div class="sr-kpi"><div class="v">{v}</div><div class="l">{label}</div>'
+                         '</div>', unsafe_allow_html=True)
+        st.markdown(
+            "**What it means:** search acceleration catches the hits, but it also fires for almost "
+            "every popular story. It is a first filter, not a decision. That is why the live radar "
+            "only flags the top 10 % of each format, adds the mainstream gap, and will add "
+            "spreading across communities (YouTube, Reddit). Bonus: for the Twisted series, the "
+            "rule fired about three years before Netflix bought it.")
+        show = ctrl.assign(
+            Alert=ctrl["radar_alert"].fillna("no alert"),
+            When=ctrl["months_after_publication"].map(
+                lambda v: f"{v:.0f} months after publication" if pd.notna(v) else ""),
+            Deal=ctrl["deal"].fillna(""))
+        st.dataframe(
+            show[["title", "format", "popularity", "Alert", "When", "verdict", "Deal",
+                  "source_url"]],
+            column_config={"title": "Story", "format": "Format", "popularity": "Popularity",
+                           "Alert": "Radar alert", "When": "Timing", "verdict": "Verdict",
+                           "Deal": "Deal found",
+                           "source_url": st.column_config.LinkColumn("Source",
+                                                                     display_text="Open ↗")},
+            hide_index=True, width="stretch")
+    st.caption("Lead time is measured to the public announcement; options are often signed earlier, "
+               "so the real window is shorter.")
 
 # ================================================================ HOW IT WORKS
 with tab_how:

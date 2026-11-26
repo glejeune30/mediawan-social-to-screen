@@ -16,8 +16,17 @@ three weeks. The same communities post on YouTube (BookTube, Shorts) and discuss
 have official APIs. We use TikTok Creative Center by hand for context.
 
 **"Isn't your backtest biased? You picked titles that you already know became hits."**
-Yes, and that is the next step: a control group of titles that buzzed in the same communities but
-were never adapted. We will report the false-alarm rate next to the hit rate.
+We tested that. We took 16 popular stories with no adaptation listed, chosen before looking at
+their curves. The same rule fired for 11 of the 12 that were truly never adapted: on its own,
+search acceleration is not selective (precision 29 %). That is why the radar ranks stories
+against each other and adds the mainstream gap and spreading. And 4 of the 16 had in fact been
+optioned, including Netflix's Twisted series, which the rule flagged about three years before.
+
+**"So how reliable is your radar?"**
+Today: it catches 3 of 4 hits early, but alone it would raise too many alerts. Its value is to
+shortlist: from thousands of stories to about ten a week that a development executive reads,
+then checks the rights for. We will measure the combined rule on the same control group before
+On the Grill 2.
 
 **"Every new book grows at launch. How do you avoid flagging all of them?"**
 Acceleration alone is not enough. A title also has to spread across several communities, and the

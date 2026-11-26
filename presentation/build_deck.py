@@ -6,6 +6,7 @@ scripts/run_poc.py to refresh the numbers.
 """
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -374,9 +375,13 @@ flagged = res[res["lead_months"].notna()] if res is not None else None
 if flagged is not None and len(flagged):
     title(s, f"First test: {len(flagged)} of {len(res)} stories flagged before the deal")
     lo, hi = flagged["lead_months"].min(), flagged["lead_months"].max()
-    text(s, MARGIN, Inches(1.3), W - 2 * MARGIN, Inches(0.45),
-         f"Between {fmt_months(lo)} and {fmt_months(hi)} months of warning, with free search data only",
-         size=18, color=MUTED)
+    summ_path = ROOT / "data" / "processed" / "backtest_summary.json"
+    summ = json.loads(summ_path.read_text(encoding="utf-8")) if summ_path.exists() else None
+    sub = f"{fmt_months(lo)} to {fmt_months(hi)} months of warning"
+    if summ:
+        sub += (f", but alone it also fires for {summ['controls_flagged']} of "
+                f"{summ['controls_total']} popular stories never adapted")
+    text(s, MARGIN, Inches(1.3), W - 2 * MARGIN, Inches(0.45), sub, size=18, color=MUTED)
 else:
     title(s, "First test: alerts versus deal announcements")
 
@@ -384,7 +389,7 @@ else:
 t0, t1 = pd.Timestamp("2018-01-01"), pd.Timestamp("2024-01-01")
 ax_x, ax_w = MARGIN + Inches(3.0), Inches(6.4)
 y_top = Inches(2.15)
-row_h = Inches(0.9)
+row_h = Inches(0.85)
 
 
 def tx(d):
@@ -438,8 +443,10 @@ dot(s, MARGIN + Inches(4.4), ly + Inches(0.14), Inches(0.1), INK)
 text(s, MARGIN + Inches(4.63), ly, Inches(3.5), Inches(0.3), "Adaptation deal announced",
      size=12, color=INK)
 text(s, MARGIN, ly + Inches(0.4), W - 2 * MARGIN, Inches(0.5),
-     "One rule, fixed in advance, same for every title: Google searches over 3 months at least double "
-     "the 6 months before, two months in a row. Known successes only; titles never adapted come next.",
+     "One rule, fixed in advance: Google searches over 3 months at least double the 6 months before, "
+     "two months in a row. Control group: 16 popular stories with no adaptation listed, chosen before "
+     "looking at their curves; 4 had in fact been optioned (e.g. Netflix's Twisted deal, flagged "
+     "about 3 years earlier).",
      size=11, color=MUTED, italic=True)
 footer(s, 6)
 notes(s, "We ran a first test with free data only, on four real adaptations. The rule is simple "
@@ -463,7 +470,7 @@ colw = Inches(5.7)
 text(s, MARGIN, Inches(1.6), colw, Inches(0.4), "BEFORE ON THE GRILL 2  ·  4 DECEMBER", size=12,
      bold=True, color=CORAL)
 steps = ["Add the early signals: YouTube and Reddit",
-         "Test on titles that were never adapted, to count false alarms",
+         "Cut false alarms: combine the three questions, test on the same control group",
          "Tune our prototype, already live on public data, with your feedback"]
 for i, st in enumerate(steps):
     y = Inches(2.2) + i * Inches(1.0)

@@ -80,6 +80,14 @@ Lead time is counted from the end of the alert month, when the data is actually 
 *Heartstopper* was missed: its searches grew tenfold between 2018 and 2020, but never doubled
 within a few months. This calls for a slow-growth indicator and for the community sources.
 
+**False alarms.** We applied the same rule to 16 popular stories with no adaptation listed,
+chosen before looking at their curves. A trade-press check showed that 4 had in fact been
+optioned (*The Midnight Library* in 2020; Netflix's deal for the *Twisted* series in January 2025,
+which the rule had flagged about three years earlier). On the 12 truly never-adapted stories, the
+rule fired 11 times: precision is 29 %. Search acceleration is therefore a first filter, not a
+decision: the radar ranks stories against each other, adds the mainstream gap and spreading, and
+leaves the rights check to a human, in the trade press.
+
 ## 5b. Prototype (26 November)
 
 *Story Radar* already runs on live public data without API keys: webtoons trending among AniList
@@ -89,7 +97,10 @@ reasons, on a radar map and a filterable watchlist, with one page per story.
 
 ## 6. Limits
 
-- **Survivorship bias**: the first test uses known successes only; the control set addresses it.
+- **Selectivity**: on its own, the acceleration rule raised an alert for 11 of 12 never-adapted
+  popular stories (see 5). The score has to combine it with the other questions.
+- **Rights status**: the automatic check missed 4 deals in 16 titles; rights must be checked in
+  the trade press before any contact.
 - **Launch effect**: every new book accelerates at launch; breadth and the awareness gap should
   separate phenomena from ordinary launches.
 - **Announcement versus option date**: rights are often optioned months before the public
@@ -102,7 +113,8 @@ reasons, on a radar map and a filterable watchlist, with one page per story.
 
 ## 7. Next steps
 
-Before On the Grill 2 (4 December): YouTube and Reddit collection, control set and false-alarm
-rate, prototype v1 (weekly watchlist, filters by keyword and genre, refresh button). Before the
+Before On the Grill 2 (4 December): YouTube and Reddit collection, a combined rule that cuts
+false alarms (tested on the same control group), prototype v1 (weekly watchlist, filters by
+keyword and genre, refresh button). Before the
 final deliverables: calibrated score, current top 10 with recommendations prioritised by impact
 and feasibility, and this note finalised.

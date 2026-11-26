@@ -43,6 +43,32 @@ SERIES_VOLUME = re.compile(r"(\bvol\.?\s*\d+|\bvolume\s*\d+|\s\d{1,3}$|#\d+)", r
 NON_STORY_SUBJECTS = ("manga", "comic books, strips", "cookbooks", "self-help")
 
 
+def popular_books(since: int, until: int, per_genre: int = 12) -> pd.DataFrame:
+    """Most wanted books first published between `since` and `until`, in our genres
+    (used to build the control group of the backtest)."""
+    rows: dict[str, dict] = {}
+    for genre, q in GENRE_QUERIES.items():
+        params = {"q": f"{q} first_publish_year:[{since} TO {until}] language:eng",
+                  "sort": "want_to_read", "fields": FIELDS, "limit": per_genre}
+        r = requests.get(SEARCH, params=params, headers={"User-Agent": USER_AGENT}, timeout=60)
+        r.raise_for_status()
+        time.sleep(1)
+        for d in r.json().get("docs", []):
+            title = d.get("title", "")
+            subjects = [s.lower() for s in d.get("subject", [])]
+            if d["key"] in rows or SERIES_VOLUME.search(title) or any(
+                    any(ns in s for ns in NON_STORY_SUBJECTS) for s in subjects):
+                continue
+            rows[d["key"]] = {
+                "source_id": d["key"], "title": title, "alt_title": None,
+                "author": ", ".join((d.get("author_name") or [])[:2]),
+                "year": d.get("first_publish_year"), "genre": genre,
+                "want_to_read": d.get("want_to_read_count") or 0,
+                "source_url": f"https://openlibrary.org{d['key']}",
+            }
+    return pd.DataFrame(list(rows.values()))
+
+
 def trending_books(per_genre: int = 40, since: int = 2022, min_readers: int = 10) -> pd.DataFrame:
     rows: dict[str, dict] = {}
     for genre, q in GENRE_QUERIES.items():

@@ -1,0 +1,19 @@
+{
+  "adapted_flagged": 3,
+  "adapted_total": 4,
+  "controls_flagged": 11,
+  "controls_total": 12,
+  "controls_found_adapted": 4,
+  "controls_found_adapted_titles": [
+    "Twisted Lies",
+    "Twisted Games",
+    "Twisted Hate",
+    "The Midnight Library"
+  ],
+  "extra_hits_before_deal": 2,
+  "hit_rate": 0.75,
+  "false_alarm_rate": 0.92,
+  "precision": 0.29,
+  "false_alarms_within_6_months_of_publication": 5,
+  "horizon_months": 46
+}

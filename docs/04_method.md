@@ -74,13 +74,41 @@ Built by `scripts/run_watchlist.py`, logic in `src/radar/watchlist.py`.
 
 1. **Positive set**: titles adapted recently, with a public announcement date
    (`data/seeds/backtest_titles.csv`).
-2. **Control set** (week 2): titles that buzzed in the same communities but were *not* adapted.
+2. **Control set** (done 26 Nov, see section 6): titles that buzzed in the same communities but
+   were *not* adapted.
 3. For each title, compute the first alert before the announcement. Report:
    - **hit rate**: share of adapted titles flagged before the deal;
    - **lead time**: months between alert and deal (median);
    - **false-alarm rate**: share of control titles that were flagged.
 4. Google Trends is queried with a window ending at the announcement date, so its 0-100 scale
    only uses information that existed at the time.
+
+## 6. Results of the false-alarm test (26 Nov, `scripts/run_control_test.py`)
+
+Control group chosen *before* looking at any curve: the 8 webtoons from 2018-2022 with the most
+AniList fans and the 8 most wanted books from 2019-2022 on Open Library, all with no adaptation
+listed on AniList or Wikipedia (titles whose name is ambiguous on Wikipedia left out). Same rule,
+window from 12 months before to 46 months after publication (46 = median publication-to-deal
+time of the adapted titles).
+
+| | Result |
+|---|---|
+| Adapted titles flagged before the deal | **3 / 4** |
+| Never-adapted titles that still raised an alert (false alarms) | **11 / 12** |
+| Of those false alarms, in the first 6 months after publication | 5 |
+| "Controls" that a trade-press check showed were in fact optioned | **4** (The Midnight Library, optioned in 2020; Netflix's Twisted series deal, Jan 2025) |
+| Twisted series: alert before Netflix's deal | ~34 months before (2 of the 3 books) |
+| Precision (alerts followed by a deal / all alerts) | **29 %** |
+
+**Reading:** acceleration in Google searches catches the hits but fires for almost every popular
+story. It is a necessary first filter, not a decision rule. Consequences for the radar:
+1. rank stories against each other (the live watchlist only flags the top 10 % of each format);
+2. require the mainstream gap and, with YouTube and Reddit, spreading across communities;
+3. check rights in the trade press: our automatic check (AniList, Wikipedia categories) missed
+   4 deals out of 16 titles.
+
+Sources of the checks: `data/seeds/control_checks.csv`. Per-title results:
+`data/processed/control_results.csv`.
 
 ## Known limits
 

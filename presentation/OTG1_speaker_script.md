@@ -11,9 +11,9 @@ Team 21: Christine Durand, Fiona Loison, Gabin Dupre Duval, Gabriel Lejeune.
 | 1. Title | 0:20 | 0:20 |
 | 2. Problem | 0:45 | 1:05 |
 | 3. Decision | 0:45 | 1:50 |
-| 4. Existing tools | 0:40 | 2:30 |
-| 5. How it works | 0:50 | 3:20 |
-| 6. First test | 1:00 | 4:20 |
+| 4. Existing tools | 0:30 | 2:20 |
+| 5. How it works | 0:50 | 3:10 |
+| 6. First test | 1:10 | 4:20 |
 | 7. Next steps and questions | 0:40 | 5:00 |
 | 8. Backup: prototype | only if asked | |
 
@@ -48,15 +48,13 @@ strong growth while the mainstream is still unaware, so contact the rights holde
 We focus on books and webtoons because Mediawan adapts both, in fiction and in animation, and
 because an option is a concrete and costly decision.
 
-## 4. Existing tools see topics, not stories (0:40)
+## 4. Existing tools see topics, not stories (0:30)
 
-We looked at what already exists. Google Trends is free, but it sees a story once millions of
-people search for it. Exploding Topics and Glimpse track fast-growing keywords and products.
-TikTok Creative Center tracks hashtags, on one platform, for advertisers. Parrot Analytics
-measures demand for shows that are already on screen.
+Existing tools see topics, not stories. Google Trends sees a story once millions search for it.
+Exploding Topics and Glimpse track keywords and products. TikTok Creative Center tracks hashtags
+for advertisers. Parrot Analytics measures demand for shows already on screen.
 
-None of them gives one score per story, across communities, timed to the moment an option is
-still cheap. That is our angle.
+None gives one score per story, across communities, timed to the rights window. That is our angle.
 
 ## 5. Three questions, asked every week for every story (0:50)
 
@@ -73,27 +71,26 @@ Open Library, where fans and readers log what they read. Those two are already l
 prototype. And we compare with a mainstream gauge: Google Trends and Wikipedia. Public data only,
 official APIs, no personal data.
 
-## 6. First test: 3 of 4 stories flagged before the deal (1:00)
+## 6. First test: 3 of 4 stories flagged before the deal (1:10)
 
-We already ran a first test, with free search data only, on four real adaptations. The rule is
-simple and was fixed before we looked at the results: the last three months of Google searches
-at least double the six months before, two months in a row.
+We already ran a first test, with free search data only, on four real adaptations. The rule was
+fixed before we looked: the last three months of Google searches at least double the six months
+before, two months in a row.
 
-Coral is when the radar would have raised the alert. Dark is when the deal was announced.
-Solo Leveling: 42 months early. A Good Girl's Guide to Murder: 28 months. Fourth Wing: three
-and a half months, which matches how fast that deal happened. For two of them, the alert came
-before the story even had a Wikipedia page.
+Coral is the radar alert, dark is the deal. Solo Leveling: 42 months early. A Good Girl's Guide to
+Murder: 28. Fourth Wing: three and a half. Heartstopper was missed: it grew tenfold, but slowly.
 
-Heartstopper was missed. It grew tenfold between 2018 and 2020, but slowly, never doubling in a
-few months. That tells us we need an indicator for slow, steady growth, and the community sources.
-
-And to be honest about the limits: these are known successes. Next, we test titles that buzzed
-but were never adapted, to count false alarms.
+Then we tested the opposite: 16 popular stories with no adaptation listed, chosen before looking
+at their curves. The rule fired for 11 of the 12 that were truly never adapted. So acceleration
+alone catches the hits but is not selective: it is a first filter, which is why the radar asks the
+two other questions. And a bonus: four of those stories had in fact been optioned, including the
+Twisted series, bought by Netflix in January 2025, about three years after our alert.
 
 ## 7. Next: from a test to a weekly watchlist (0:40)
 
-Before On the Grill 2, we will add YouTube and Reddit, test on titles that were never adapted,
-and tune our prototype, which already builds a weekly watchlist from live public data.
+Before On the Grill 2, we will add YouTube and Reddit, combine the three questions to cut false
+alarms and measure it on the same control group, and tune our prototype, which already builds a
+weekly watchlist from live public data.
 
 To make it useful for you, we have three questions: which genres matter most to your labels
 right now, how many months of warning your teams need to option a story, and whether you could
@@ -123,10 +120,10 @@ can filter by format, genre or status, and open a page for each story with its c
    optionner ce trimestre, avant que les droits deviennent chers ? Chaque semaine, chaque histoire
    a un statut : À surveiller, À préparer (lire, vérifier qui a les droits), Agir maintenant
    (contacter l'ayant droit).
-4. **Outils existants.** Google Trends voit trop tard ; Exploding Topics et Glimpse suivent des
-   mots-clés et des produits ; TikTok Creative Center des hashtags pour annonceurs ; Parrot
-   Analytics la demande pour des séries déjà diffusées. Aucun ne donne un score par histoire,
-   multi-communautés, calé sur la fenêtre des droits.
+4. **Outils existants.** Ils voient des sujets, pas des histoires : Google Trends voit trop tard ;
+   Exploding Topics et Glimpse suivent des mots-clés et des produits ; TikTok Creative Center des
+   hashtags pour annonceurs ; Parrot Analytics la demande pour des séries déjà diffusées. Aucun ne
+   donne un score par histoire, multi-communautés, calé sur la fenêtre des droits.
 5. **Fonctionnement.** Trois questions par histoire et par semaine : le buzz accélère-t-il ?
    se propage-t-il à plusieurs communautés ? le grand public l'ignore-t-il encore ? Résultat :
    un score de 0 à 100 et un statut. Sources : YouTube, Reddit, et AniList et Open Library (fans
@@ -135,13 +132,15 @@ can filter by format, genre or status, and open a page for each story with its c
 6. **Premier test.** Règle fixée à l'avance : les recherches Google des 3 derniers mois font au
    moins le double des 6 mois précédents, deux mois de suite. Solo Leveling repéré 42 mois avant
    le contrat, A Good Girl's Guide to Murder 28 mois, Fourth Wing 3,5 mois. Heartstopper raté :
-   croissance lente (×10 entre 2018 et 2020, sans jamais doubler en quelques mois). Limite : ce
-   sont des succès connus ; prochaine étape, tester des titres jamais adaptés pour compter les
-   fausses alertes.
-7. **Suite.** Avant On the Grill 2 : ajouter YouTube et Reddit, tester les faux positifs,
-   améliorer le prototype qui tourne déjà sur des données publiques en direct. Trois questions au
-   jury : genres prioritaires, combien de mois d'avance il leur faut, et un ou deux contrats
-   passés pour tester.
+   croissance lente. Puis l'inverse : 16 histoires populaires sans adaptation connue, choisies
+   avant de regarder leurs courbes. La règle sonne pour 11 des 12 vraiment jamais adaptées :
+   l'accélération seule repère les succès mais trie mal, c'est un premier filtre, d'où les deux
+   autres questions du radar. Bonus : 4 de ces histoires avaient en fait été achetées, dont la
+   série Twisted, achetée par Netflix en janvier 2025, environ trois ans après notre alerte.
+7. **Suite.** Avant On the Grill 2 : ajouter YouTube et Reddit, combiner les trois questions
+   pour réduire les fausses alertes (mesuré sur le même groupe témoin), améliorer le prototype
+   qui tourne déjà sur des données publiques en direct. Trois questions au jury : genres
+   prioritaires, combien de mois d'avance il leur faut, et un ou deux contrats passés pour tester.
 8. **Slide de secours (seulement si on demande ce que voit l'utilisateur).** Le prototype : chaque
    semaine, les livres et webtoons qui gagnent des lecteurs et des fans, avec un statut, un score
    et les raisons ; filtres par format, genre, statut ; une page par histoire avec ses courbes.
