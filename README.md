@@ -49,6 +49,12 @@ each one a weekly emergence score and a status: **Watch**, **Prepare** or **Act 
 Live sources: **AniList** (webtoon fans), **Open Library** (book readers), **Wikipedia**
 (mainstream gauge). Scoring rules: `docs/04_method.md`, section 4b.
 
+**To send it by email** (no Python needed on the other side):
+- `exports/story_radar.html`: the whole interface in one file (5 MB), interactive (filters, radar
+  map, watchlist with reasons, backtest, false alarms). Opens in any browser.
+- `exports/story_radar_screenshots.pdf`: 4 screenshots (1 MB), for mail systems that block HTML.
+- Rebuild them with `python scripts/export_static.py` and `python scripts/export_screenshots_pdf.py`.
+
 ## Repository map
 
 ```
