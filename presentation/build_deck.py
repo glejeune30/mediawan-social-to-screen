@@ -541,7 +541,8 @@ if SHOT.exists():
 SCRIPT = ROOT / "presentation" / "OTG1_speaker_script.md"
 if SCRIPT.exists():
     english = SCRIPT.read_text(encoding="utf-8").split("## Version française")[0]
-    sections = english.split("\n## ")[1:]
+    # only the numbered sections ("## 1. ...") are slide notes
+    sections = [s for s in english.split("\n## ")[1:] if s[:1].isdigit()]
     for slide, sec in zip(prs.slides, sections):
         body = sec.split("\n", 1)[1].replace("---", "").strip()
         notes(slide, " ".join(line.strip() for line in body.splitlines()).replace("  ", "\n\n"))
