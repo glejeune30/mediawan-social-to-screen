@@ -23,6 +23,9 @@ venv/
 Thumbs.db
 desktop.ini
 
+# official partner logos (trademarks): kept on our computers, not in the public repository
+web/assets/partners/
+
 # copy of exports/story_radar.html at the root of the folder, for convenience
 /story_radar.html
 # convenience copies of the French documents at the root of the folder

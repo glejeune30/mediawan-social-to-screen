@@ -28,28 +28,42 @@ each one a weekly emergence score and a status: **Watch**, **Prepare** or **Act 
   flagged about three years earlier). Acceleration alone is a first filter, not a decision
   (`docs/04_method.md`, section 6).
 - On the Grill 1 deck, speaker script and Q&A prep (`presentation/`).
-- **Story Radar prototype** (`app/`), running on live public data without API keys.
+- **Story Radar interface** (`web/`), running on live public data without API keys.
 
 ## The prototype: Story Radar
 
-![Story Radar prototype](presentation/assets/prototype.png)
+![Story Radar: this week's radar](presentation/assets/web_radar.png)
 
-| Radar map | Story page | Backtest |
+| Watchlist | Story page | Settings and extensions |
 |---|---|---|
-| ![Radar map](presentation/assets/radar_map.png) | ![Story page](presentation/assets/story.png) | ![Backtest](presentation/assets/backtest.png) |
+| ![Watchlist](presentation/assets/web_list.png) | ![Story page](presentation/assets/web_story.png) | ![Settings](presentation/assets/web_settings.png) |
 
-- **This week's radar**: the top signals with their reasons, a radar map (acceleration in the
-  community × mainstream awareness) and the full watchlist with covers, filterable by keyword,
-  format, status and genre.
-- **Story page**: status, score, why, links, the community curve and the Wikipedia curve.
-- **Backtest**: the four past adaptations, alert versus deal.
-- **How it works**: the three questions, the status rules, the sources and their status, and a
-  button to refresh the live data.
+A web interface in plain HTML, CSS and JavaScript (`web/`, no framework, no build step), served
+by a small Python server (`server.py`, standard library only). In French, for the team.
 
-Live sources: **AniList** (webtoon fans), **Open Library** (book readers), **Wikipedia**
-(mainstream gauge). Scoring rules: `docs/04_method.md`, section 4b.
+- **Radar**: this week's key numbers, the polar radar (books on the left, webtoons on the right,
+  the closer to the centre the higher the score), the strongest signals, and a map of community
+  acceleration against mainstream awareness.
+- **Liste**: every story with its cover, status, score and reason, filterable by keyword, format,
+  status and genre, as cards or as a table.
+- **Story page** (opens on the side): what to do, why, where the score comes from, the community
+  curve, the Wikipedia curve, links to check the rights.
+- **Tests**: the backtest on four past adaptations and the false-alarm test.
+- **Méthode**: the three questions, the formula and the status rules with the current values,
+  the sources and the limits.
+- **Réglages**: every rule of the radar is a setting (weights, thresholds, scope), with three
+  presets and a live view of the effect. Settings are kept in the browser and can be exported.
+- **Extensions**: one idea = one file in `web/js/extensions/` (extra points, hidden stories). It
+  shows up in the settings by itself. Three examples are included. How-to: `web/README.md`.
 
-**To send it by email** (no Python needed on the other side):
+The browser recomputes the scores itself, so every setting changes the result at once. With the
+reference settings it gives exactly the Python results (same scores and statuses for the 105
+stories). Live sources: **AniList** (webtoon fans), **Open Library** (book readers),
+**Wikipedia** (mainstream gauge). Scoring rules: `docs/04_method.md`, section 4b.
+
+The first prototype in Streamlit (`app/streamlit_app.py`) is kept for reference.
+
+**To send it by email** (no Python needed on the other side; first prototype's look):
 - `exports/story_radar.html`: the whole interface in one file (5 MB), interactive (filters, radar
   map, watchlist with reasons, backtest, false alarms). Opens in any browser.
 - `exports/story_radar_screenshots.pdf`: 4 screenshots (1 MB), for mail systems that block HTML.
@@ -84,11 +98,15 @@ src/radar/
   watchlist.py             live watchlist: Wikipedia matching, score, status, reasons
   indicators.py            momentum, alerts (backtest)
   config.py                paths and API keys (read from .env)
-scripts/run_watchlist.py   builds this week's watchlist from live public data
+scripts/run_watchlist.py   builds this week's watchlist from live public data (+ web/data/radar.json)
+scripts/export_web_data.py writes web/data/radar.json, the data of the interface
 scripts/run_poc.py         collects data and runs the backtest
 scripts/run_control_test.py  false-alarm test on stories never adapted
-app/streamlit_app.py       Story Radar prototype (radar, story pages, backtest, method)
-.streamlit/config.toml     prototype theme (same colours as the deck)
+server.py                  serves the interface on http://localhost:8600, runs the data refresh
+web/                       Story Radar interface (HTML, CSS, JS); how to extend it: web/README.md
+  js/extensions/           one idea per file, switched on in the settings
+app/streamlit_app.py       first prototype, in Streamlit (kept for reference)
+.streamlit/config.toml     its theme
 data/
   seeds/backtest_titles.csv   adapted titles, deal dates and source links
   raw/                        collected data (backtest series, watchlist signals and history)
@@ -99,17 +117,17 @@ tests/test_smoke.py        indicator tests + headless run of the app
 ## Run it
 
 **Windows, simplest:** double-click `lancer_app.bat`. The first time, it creates a Python
-environment in `%USERPROFILE%\.mediawan-radar` (about 3 minutes), then it opens the prototype at
-http://localhost:8501. Close its window to stop the app.
+environment in `%USERPROFILE%\.mediawan-radar` (about 3 minutes), then it opens the interface at
+http://localhost:8600. Close its window to stop it.
 
 By hand:
 
 ```powershell
+python server.py                        # open http://localhost:8600 (plain Python is enough)
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app/streamlit_app.py      # open the prototype (uses the saved data snapshot)
-python scripts/run_watchlist.py         # refresh the live watchlist (about 5 minutes)
+pip install -r requirements.txt         # needed to collect data, rebuild the deck, run the tests
+python scripts/run_watchlist.py         # refresh the live watchlist and the interface (about 10 minutes)
 python scripts/run_poc.py --offline     # recompute the backtest from the saved snapshot
 python scripts/run_poc.py               # refetch Google Trends + Wikipedia for the backtest
 python presentation/build_deck.py       # rebuild the deck with the latest numbers
@@ -145,10 +163,11 @@ repository; any public post about the case needs Mediawan's approval first.
   des questions du jury `presentation/OTG1_jury_QA.md`.
 - **Le texte de l'oral en PDF** : `presentation/OTG1_speaker_script.pdf` (réparti entre les quatre
   orateurs, avec la version française).
-- **Le prototype** (Story Radar) : double-cliquer sur `lancer_app.bat` (Windows), ou
-  `streamlit run app/streamlit_app.py`. Il tourne sur de vraies
-  données publiques de cette semaine (AniList, Open Library, Wikipedia). Une slide de secours
-  (n° 8) le montre si le jury demande ce que voit l'utilisateur.
+- **L'interface** (Story Radar) : double-cliquer sur `lancer_app.bat` (Windows), ou
+  `python server.py`, puis ouvrir http://localhost:8600. Elle tourne sur de vraies données
+  publiques de cette semaine (AniList, Open Library, Wikipedia). Tous les réglages du radar se
+  changent dans la page Réglages, et chaque nouvelle idée peut s'y brancher comme extension :
+  le mode d'emploi est dans `web/README.md`.
 - **Pour la suite** : le plan est dans `docs/05_roadmap.md`, la note de cadrage commencée dans
   `docs/scoping_note_draft.md`.
 - **Partie technique** : `src/`, `scripts/`, `app/`, à ne pas montrer dans la présentation.

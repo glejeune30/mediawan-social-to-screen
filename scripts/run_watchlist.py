@@ -137,3 +137,6 @@ if __name__ == "__main__":
     if "--offline" not in sys.argv:
         collect()
     build()
+    # the web interface (server.py) reads web/data/radar.json: rebuild it from the new files
+    import runpy
+    runpy.run_path(str(Path(__file__).with_name("export_web_data.py")), run_name="__main__")

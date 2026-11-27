@@ -63,6 +63,34 @@ def test_watchlist_status_rules():
     assert out["score"].between(0, 100).all()
 
 
+def test_web_server_serves_interface():
+    """server.py serves the interface (JS as JavaScript, or browsers refuse the modules) and its data."""
+    import json
+    import threading
+    import urllib.request
+    from http.server import ThreadingHTTPServer
+
+    sys.path.insert(0, str(ROOT))
+    import server
+
+    httpd = ThreadingHTTPServer(("127.0.0.1", 0), server.Handler)
+    threading.Thread(target=httpd.serve_forever, daemon=True).start()
+    base = f"http://127.0.0.1:{httpd.server_address[1]}"
+    try:
+        def get(path):
+            with urllib.request.urlopen(base + path, timeout=10) as r:
+                return r.headers.get("Content-Type", ""), r.read()
+        assert get("/")[0].startswith("text/html")
+        for js in ["/js/main.js", "/js/scoring.js", "/js/extensions/index.js"]:
+            assert get(js)[0].startswith("text/javascript"), js
+        assert json.loads(get("/api/status")[1])["running"] is False
+        if (ROOT / "web" / "data" / "radar.json").exists():
+            data = json.loads(get("/data/radar.json")[1])
+            assert data["stories"] and all("py" in s and "s" in s for s in data["stories"])
+    finally:
+        httpd.shutdown()
+
+
 def test_streamlit_app_runs():
     if not (ROOT / "data" / "processed" / "backtest_results.csv").exists():
         return
