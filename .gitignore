@@ -22,3 +22,6 @@ venv/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# copy of exports/story_radar.html at the root of the folder, for convenience
+/story_radar.html
