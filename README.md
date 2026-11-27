@@ -70,6 +70,9 @@ docs/
   feedback_log.md          jury feedback, round by round
 presentation/
   OTG1_deck.pptx           On the Grill 1 deck (7 slides + 1 backup, speaker notes included)
+  OTG1_deck_FR.pptx/.pdf   same deck in French (build_deck_fr.py), notes from the French script
+  OTG1_speaker_script_FR.* French script split between the 4 speakers (md + pdf)
+  fiche_Gabriel_FR.*       Gabriel's part explained, with expected questions (md + pdf)
   assets/prototype.png     screenshot of the prototype (used in the backup slide)
   OTG1_deck.pdf            same, as PDF
   OTG1_speaker_script.md   5-minute script split between the 4 speakers (+ French version)

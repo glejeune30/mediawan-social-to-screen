@@ -1,6 +1,7 @@
 """Builds presentation/OTG1_speaker_script.pdf from OTG1_speaker_script.md.
 
-Run:  python presentation/build_script_pdf.py
+Run:  python presentation/build_script_pdf.py                      (English script)
+      python presentation/build_script_pdf.py SCRIPT.md OUT.pdf    (any script, e.g. the French one)
 Needs the `markdown` package and Microsoft Edge (or Google Chrome), used to print the page to PDF.
 """
 from __future__ import annotations
@@ -73,7 +74,12 @@ def to_html(md_text: str) -> str:
 
 
 def main() -> None:
-    html = to_html(SRC.read_text(encoding="utf-8"))
+    import sys
+    global OUT
+    src = Path(sys.argv[1]) if len(sys.argv) > 2 else SRC
+    if len(sys.argv) > 2:
+        OUT = Path(sys.argv[2]).resolve()
+    html = to_html(src.read_text(encoding="utf-8"))
     browser = next((b for b in BROWSERS if Path(b).exists()), None)
     if browser is None:
         raise SystemExit("Microsoft Edge or Google Chrome is needed to print the PDF.")
