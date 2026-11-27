@@ -66,6 +66,7 @@ docs/
   04_method.md             indicators, alert rule, score, backtest protocol, limits
   05_roadmap.md            plan to 13 December, roles
   scoping_note_draft.md    draft of the 2-4 page deliverable
+  comment_ca_marche_FR.pdf how we collect the data and compute everything, in French (+ .md)
   feedback_log.md          jury feedback, round by round
 presentation/
   OTG1_deck.pptx           On the Grill 1 deck (7 slides + 1 backup, speaker notes included)
