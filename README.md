@@ -65,7 +65,8 @@ presentation/
   OTG1_deck.pptx           On the Grill 1 deck (7 slides + 1 backup, speaker notes included)
   assets/prototype.png     screenshot of the prototype (used in the backup slide)
   OTG1_deck.pdf            same, as PDF
-  OTG1_speaker_script.md   5-minute script with timings (+ French version)
+  OTG1_speaker_script.md   5-minute script split between the 4 speakers (+ French version)
+  OTG1_speaker_script.pdf  same, as PDF (build_script_pdf.py rebuilds it)
   OTG1_jury_QA.md          expected questions, answers, questions for the jury
   build_deck.py            regenerates the deck from the data
 src/radar/
@@ -86,6 +87,12 @@ tests/test_smoke.py        indicator tests + headless run of the app
 ```
 
 ## Run it
+
+**Windows, simplest:** double-click `lancer_app.bat`. The first time, it creates a Python
+environment in `%USERPROFILE%\.mediawan-radar` (about 3 minutes), then it opens the prototype at
+http://localhost:8501. Close its window to stop the app.
+
+By hand:
 
 ```powershell
 python -m venv .venv
@@ -126,7 +133,10 @@ repository; any public post about the case needs Mediawan's approval first.
 - **Pour vendredi** : le diapo `presentation/OTG1_deck.pptx` (notes de l'orateur incluses), le texte
   à dire `presentation/OTG1_speaker_script.md` (anglais + traduction française), et la préparation
   des questions du jury `presentation/OTG1_jury_QA.md`.
-- **Le prototype** (Story Radar) : `streamlit run app/streamlit_app.py`. Il tourne sur de vraies
+- **Le texte de l'oral en PDF** : `presentation/OTG1_speaker_script.pdf` (réparti entre les quatre
+  orateurs, avec la version française).
+- **Le prototype** (Story Radar) : double-cliquer sur `lancer_app.bat` (Windows), ou
+  `streamlit run app/streamlit_app.py`. Il tourne sur de vraies
   données publiques de cette semaine (AniList, Open Library, Wikipedia). Une slide de secours
   (n° 8) le montre si le jury demande ce que voit l'utilisateur.
 - **Pour la suite** : le plan est dans `docs/05_roadmap.md`, la note de cadrage commencée dans

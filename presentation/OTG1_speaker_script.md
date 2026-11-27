@@ -78,7 +78,9 @@ our angle. Gabin will show you how it works.
 GABIN: Thank you, Fiona. Every week, for every story, the radar asks three questions.
 
 One: is the buzz accelerating?
+
 Two: is it spreading, across several communities?
+
 Three: is the mainstream still unaware? We compare the niche buzz with Google searches and
 Wikipedia.
 
@@ -131,6 +133,7 @@ Everything you see was collected this week, without any paid tool.
 ## Version française (pour comprendre et répéter, ne pas lire à l'oral)
 
 **Christine (slides 1 et 2, 1:05)**
+
 1. **Titre.** Bonjour, nous sommes la Team 21 : moi c'est Christine, avec Fiona, Gabin et Gabriel.
    En cinq minutes : le problème choisi, la décision que notre radar aide Mediawan à prendre, et
    un premier test sur de vraies adaptations.
@@ -143,6 +146,7 @@ Everything you see was collected this week, without any paid tool.
    courte et s'ouvre dans les communautés. → Passe la parole à Fiona.
 
 **Fiona (slides 3 et 4, 1:15)**
+
 3. **Décision.** Quel livre ou webtoon les équipes de développement doivent-elles regarder et
    optionner ce trimestre, avant que les droits deviennent chers ? Chaque semaine, chaque histoire
    a un statut : À surveiller (on la garde sur la liste), À préparer (quelqu'un la lit et vérifie
@@ -156,6 +160,7 @@ Everything you see was collected this week, without any paid tool.
    multi-communautés, calé sur la fenêtre des droits. → Passe la parole à Gabin.
 
 **Gabin (slide 5 et début de la slide 6, 1:20)**
+
 5. **Fonctionnement.** Trois questions par histoire et par semaine : le buzz accélère-t-il ? se
    propage-t-il à plusieurs communautés ? le grand public l'ignore-t-il encore (comparaison avec
    Google et Wikipedia) ? Résultat : un score de 0 à 100 et un statut. Sources : YouTube, Reddit,
@@ -168,6 +173,7 @@ Everything you see was collected this week, without any paid tool.
    mais trop lentement pour la règle. → « Gabriel ? »
 
 **Gabriel (fin de la slide 6 et slide 7, 1:20)**
+
 6. **Premier test (suite).** On ne voulait pas se raconter d'histoires, donc on a testé l'inverse :
    16 histoires populaires sans adaptation connue, choisies avant de regarder leurs courbes. La
    règle sonne pour 11 des 12 vraiment jamais adaptées : l'accélération seule repère les succès
@@ -182,6 +188,7 @@ Everything you see was collected this week, without any paid tool.
    questions.
 
 **Slide 8, seulement si on demande ce que voit l'utilisateur (Gabin ou Gabriel)**
+
 Le prototype : chaque semaine, les livres et webtoons qui gagnent des lecteurs et des fans, avec
 un statut, un score et les raisons en clair ; filtres par format, genre, statut ; une page par
 histoire avec ses courbes. Tout a été collecté cette semaine, sans outil payant.
